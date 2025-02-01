@@ -1,0 +1,1877 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Starter</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <link rel="stylesheet" href="./assets/lib/_css/components/normalize.min.css" />
+    <link rel="stylesheet" href="./assets/lib/_css/components/quote.css">
+    <link rel="stylesheet" href="./assets/lib/_css/styles.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/section-sizes.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="svg-content"></section>
+
+    <audio id="quote-audio"></audio>
+    <header class="header">
+        <div class="wrapper--1">
+            <div class="js-nav-toggle">
+                <span class="nav-line nav-line--1"></span>
+                <span class="nav-line nav-line--2"></span>
+                <span class="nav-line nav-line--3"></span>
+            </div>
+            <div class="search-mobile"><span class="overlay__navigation overlay" data-overlay="#navigation__search"><i
+                        class="fas fa-search"></i></span></div>
+            <!-- position abso on mobile-->
+            <div class="nav-wrapper">
+                <div class="region region--secondary-nav">
+                    <ul class="menu menu-level--0">
+                        <li class="navigation__group"><a href="#">Contact Us</a></li>
+                        <li class="navigation__group"><a href="#">Our Offices</a></li>
+                        <li class="navigation__group"><span class="overlay__navigation overlay"
+                                data-overlay="#navigation__language"><i class="fas fa-globe"></i>Language<i
+                                    class="fas fa-chevron-down"></i></span></li>
+                        <li class="navigation__group search-nav"><span class="overlay__navigation overlay"
+                                data-overlay="#navigation__search"><i class="fas fa-search"></i></span></li>
+                    </ul>
+                </div>
+                <div class="region region--primary-nav">
+                    <ul class="menu menu-level--0">
+                        <li class="navigation__group"><span class="overlay__navigation overlay"
+                                data-overlay="#navigation__who-we-are"
+                                data-associated-image="https://media.gettyimages.com/photos/abstract-parallel-lines-technology-neon-pink-purple-blue-stripes-on-picture-id1393733175">Who
+                                we are</span></li>
+                        <li class="navigation__group"><span class="overlay__navigation overlay"
+                                data-overlay="#navigation__what-we-do"
+                                data-associated-image="https://media.gettyimages.com/photos/abstract-parallel-lines-technology-neon-pink-purple-blue-stripes-on-picture-id1393733175">What
+                                we do</span></li>
+                        <li class="navigation__group"><span class="overlay__navigation overlay"
+                                data-overlay="#navigation__our-industries"
+                                data-associated-image="https://media.gettyimages.com/photos/abstract-parallel-lines-technology-neon-pink-purple-blue-stripes-on-picture-id1393733175">Our
+                                industries</span></li>
+                        <li class="navigation__group"><span class="overlay__navigation overlay"
+                                data-overlay="#navigation__what-we-think"
+                                data-associated-image="https://media.gettyimages.com/photos/abstract-parallel-lines-technology-neon-pink-purple-blue-stripes-on-picture-id1393733175">What
+                                we think</span></li>
+                        <li class="navigation__group"><span class="overlay__navigation overlay"
+                                data-overlay="#navigation__join-us"
+                                data-associated-image="https://media.gettyimages.com/photos/abstract-parallel-lines-technology-neon-pink-purple-blue-stripes-on-picture-id1393733175">Join
+                                us</span></li>
+                        <li class="navigation__group"><span class="overlay__navigation overlay"
+                                data-overlay="#navigation__events"
+                                data-associated-image="https://media.gettyimages.com/photos/abstract-parallel-lines-technology-neon-pink-purple-blue-stripes-on-picture-id1393733175">Events</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-icons-nav">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="region region--logo">
+                <div class="logo__wrapper">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="78.608" viewBox="0 0 150 78.608">
+                            <g id="New_logo" data-name="New logo" transform="translate(-85.039 -81.248)">
+                                <g id="SK_Logo" transform="translate(85.039 81.248)">
+                                    <g id="Group_2347" data-name="Group 2347" transform="translate(124.355 0)">
+                                        <rect id="Rectangle_1395" data-name="Rectangle 1395" width="9.21" height="9.21"
+                                            transform="translate(0 19.132) rotate(-45)" fill="#c80041" />
+                                        <rect id="Rectangle_1396" data-name="Rectangle 1396" width="9.21" height="9.21"
+                                            transform="translate(12.62 19.132) rotate(-45)" fill="#c80041" />
+                                        <rect id="Rectangle_1397" data-name="Rectangle 1397" width="9.21" height="9.21"
+                                            transform="translate(12.62 6.513) rotate(-45)" fill="#c80041" />
+                                    </g>
+                                    <g id="Group_2348" data-name="Group 2348" transform="translate(0.002 0.572)">
+                                        <path id="Path_262" data-name="Path 262"
+                                            d="M91.655,107.991a6.418,6.418,0,0,1-2.737-1.665v1.761H85.045V99.7h4.033v.352a3.787,3.787,0,0,0,1.616,3.169,6.76,6.76,0,0,0,4.177,1.216,6.438,6.438,0,0,0,3.329-.7,2.287,2.287,0,0,0,1.152-2.08,2.556,2.556,0,0,0-1.12-2.225A10.531,10.531,0,0,0,94.2,98.164l-1.536-.256a9.792,9.792,0,0,1-5.505-2.449,6.714,6.714,0,0,1-1.824-4.945,6.6,6.6,0,0,1,1.1-3.761,7.362,7.362,0,0,1,3.1-2.576,10.881,10.881,0,0,1,4.625-.928q4.065,0,6.017,2.048V83.761h3.841v8.29H99.961v-.32A3.967,3.967,0,0,0,98.6,88.61a5.2,5.2,0,0,0-3.569-1.2,5.069,5.069,0,0,0-2.993.768,2.428,2.428,0,0,0-1.072,2.081A2.527,2.527,0,0,0,92.055,92.4a9.324,9.324,0,0,0,3.809,1.248l1.344.224a11.337,11.337,0,0,1,5.921,2.465,6.426,6.426,0,0,1,1.856,4.9,6.609,6.609,0,0,1-2.4,5.377,10.044,10.044,0,0,1-6.593,1.985A13.5,13.5,0,0,1,91.655,107.991Z"
+                                            transform="translate(-85.045 -83.249)" fill="#212721" />
+                                        <path id="Path_263" data-name="Path 263"
+                                            d="M174.075,109.365H163.929v-4.033h2.433V89.072h-2.433V85.039h10.146v4.033h-2.433v16.26h2.433Z"
+                                            transform="translate(-141.364 -84.527)" fill="#212721" />
+                                        <path id="Path_264" data-name="Path 264"
+                                            d="M219.984,109.365h-9.955v-4.033h2.433V89.072h-2.433V85.039H219.5l6.305,15.876,6.178-15.876h9.474v4.033H239v16.26h2.465v4.033H231.378v-4.033H234.1V91.568L228.017,107H223.44l-6.177-15.363v13.7h2.721Z"
+                                            transform="translate(-174.277 -84.527)" fill="#212721" />
+                                        <path id="Path_265" data-name="Path 265"
+                                            d="M333.294,107.014a10.9,10.9,0,0,1-4.353-4.465,15.054,15.054,0,0,1,0-13.251,10.9,10.9,0,0,1,4.353-4.465,14.414,14.414,0,0,1,13.139,0A10.875,10.875,0,0,1,350.8,89.3a15.054,15.054,0,0,1,0,13.251,10.874,10.874,0,0,1-4.369,4.465,14.411,14.411,0,0,1-13.139,0Zm10.306-4.273a6.259,6.259,0,0,0,2.449-2.721,10.319,10.319,0,0,0,0-8.194,6.263,6.263,0,0,0-2.449-2.721,7.783,7.783,0,0,0-7.49,0,6.254,6.254,0,0,0-2.448,2.721,10.316,10.316,0,0,0,0,8.194,6.25,6.25,0,0,0,2.448,2.721,7.783,7.783,0,0,0,7.49,0Z"
+                                            transform="translate(-258.078 -83.249)" fill="#212721" />
+                                        <path id="Path_266" data-name="Path 266"
+                                            d="M431.893,109.365h-9.826v-4.033h2.464V89.072H422.1V85.039h7.842l10.818,16.58V89.072h-2.72V85.039h9.89v4.033h-2.465v20.293h-5.409l-10.883-16.8v12.771h2.721Z"
+                                            transform="translate(-325.662 -84.527)" fill="#212721" />
+                                    </g>
+                                    <g id="Group_2349" data-name="Group 2349" transform="translate(0 33.006)">
+                                        <path id="Path_267" data-name="Path 267"
+                                            d="M95.314,222.75H85.039v-4.033h2.433v-16.26H85.039v-4.033H95.314v3.9H92.593v7.554l7.49-7.554H97.938v-3.9h10.114v4.033h-1.985l-6.146,6.017,6.85,10.146h2.977v4.129h-6.786l-6.817-10.659-3.553,3.425v3.2h2.721Z"
+                                            transform="translate(-85.039 -197.912)" fill="#212721" />
+                                        <path id="Path_268" data-name="Path 268"
+                                            d="M177.2,220.669q-2.5-2.592-2.5-7.554V202.457h-2.273v-4.033h10.243v4.033H179.95v11.171a4.694,4.694,0,0,0,1.248,3.521,5.916,5.916,0,0,0,7.186,0,4.732,4.732,0,0,0,1.232-3.521V202.457H186.9v-4.033H197.17v4.033h-2.433v10.659q0,4.962-2.481,7.554t-7.506,2.592Q179.693,223.262,177.2,220.669Z"
+                                            transform="translate(-147.43 -197.912)" fill="#212721" />
+                                        <path id="Path_269" data-name="Path 269"
+                                            d="M270.725,220.415a10.772,10.772,0,0,1-4.337-4.481,14.334,14.334,0,0,1-1.536-6.785,14.827,14.827,0,0,1,1.376-6.53,10.365,10.365,0,0,1,3.9-4.417,10.944,10.944,0,0,1,5.889-1.568,11.208,11.208,0,0,1,4.257.768,6.406,6.406,0,0,1,2.849,2.08v-2.337h4.065V207.74H282.84v-.256a5.5,5.5,0,0,0-5.922-5.953,6.093,6.093,0,0,0-4.817,2.016,8.038,8.038,0,0,0-1.776,5.505,9.064,9.064,0,0,0,.944,4.225,6.771,6.771,0,0,0,2.657,2.817,7.739,7.739,0,0,0,3.953.992,8.243,8.243,0,0,0,3.681-.848,7.58,7.58,0,0,0,2.785-2.256l3.265,3.329a11.672,11.672,0,0,1-4.337,3.393,14.006,14.006,0,0,1-6.065,1.28A13.038,13.038,0,0,1,270.725,220.415Z"
+                                            transform="translate(-213.416 -196.634)" fill="#212721" />
+                                        <path id="Path_270" data-name="Path 270"
+                                            d="M363.154,222.75H352.687v-4.033h2.433v-16.26h-2.433v-4.033h10.467v4.033H360.4v6.081h10.018v-6.081H367.7v-4.033h10.434v4.033H375.7v16.26h2.433v4.033H367.7v-4.033h2.721v-6.241H360.4v6.241h2.753Z"
+                                            transform="translate(-276.126 -197.912)" fill="#212721" />
+                                        <path id="Path_271" data-name="Path 271"
+                                            d="M471.382,222.75H451.6v-4.033h2.433v-16.26H451.6v-4.033h19.781v6.818H467.22v-2.785h-7.906v6.21h8.162v3.777h-8.162v6.273h7.873v-2.784h4.193Z"
+                                            transform="translate(-346.746 -197.912)" fill="#212721" />
+                                        <path id="Path_272" data-name="Path 272"
+                                            d="M529.59,222.75v-4.033h2.433v-16.26H529.59v-4.033h10.85q4.705,0,7.106,1.921a7.785,7.785,0,0,1,1.344,9.538,7.1,7.1,0,0,1-2.913,2.5l3.457,6.242h2.945v4.129h-6.69l-4.737-9.218h-3.681v5.185h2.721v4.033Zm10.338-13.027q4.705,0,4.705-3.713a3.285,3.285,0,0,0-1.2-2.817,6.058,6.058,0,0,0-3.633-.9h-2.528v7.426Z"
+                                            transform="translate(-402.426 -197.912)" fill="#212721" />
+                                    </g>
+                                </g>
+                                <g id="SK_Unlocking_better_Growth" transform="translate(85.039 147.424)">
+                                    <g id="Group_2350" data-name="Group 2350">
+                                        <path id="Path_273" data-name="Path 273"
+                                            d="M92.957,319.631c0,2.618-1.573,4.179-3.972,4.179s-3.946-1.561-3.946-4.179v-4.785H86.9v4.8a2.123,2.123,0,1,0,4.2,0v-4.8h1.857Z"
+                                            transform="translate(-85.039 -314.201)" fill="#c80041" />
+                                        <path id="Path_274" data-name="Path 274"
+                                            d="M124.175,326.212V329.6h-1.793v-3.237c0-.98-.49-1.509-1.328-1.509a1.847,1.847,0,0,0-1.354.774V329.6h-1.792v-6.177H119.7v.439a2.739,2.739,0,0,1,1.767-.632A2.686,2.686,0,0,1,124.175,326.212Z"
+                                            transform="translate(-108.506 -320.189)" fill="#c80041" />
+                                        <path id="Path_275" data-name="Path 275"
+                                            d="M146.842,322.65H145.05v-9.156h1.792Z"
+                                            transform="translate(-127.884 -313.236)" fill="#c80041" />
+                                        <path id="Path_276" data-name="Path 276"
+                                            d="M162.2,326.682a3.3,3.3,0,1,1-3.289-3.224A3.155,3.155,0,0,1,162.2,326.682Zm-1.767,0a1.537,1.537,0,1,0-3.069,0,1.541,1.541,0,1,0,3.069,0Z"
+                                            transform="translate(-135.417 -320.35)" fill="#c80041" />
+                                        <path id="Path_277" data-name="Path 277"
+                                            d="M186.561,327.34h1.793a2.978,2.978,0,0,1-3.108,2.566,3.225,3.225,0,1,1,0-6.448,2.978,2.978,0,0,1,3.108,2.566h-1.793a1.261,1.261,0,0,0-1.316-.98,1.634,1.634,0,0,0,0,3.263A1.252,1.252,0,0,0,186.561,327.34Z"
+                                            transform="translate(-154.215 -320.35)" fill="#c80041" />
+                                        <path id="Path_278" data-name="Path 278"
+                                            d="M210.46,321.374v1.277h-1.793v-9.156h1.793v5.546l2.386-2.567h2.231l-2.4,2.554,2.669,3.624H213.09l-1.638-2.321Z"
+                                            transform="translate(-173.303 -313.236)" fill="#c80041" />
+                                        <path id="Path_279" data-name="Path 279"
+                                            d="M234.593,313.65a1.077,1.077,0,0,1,2.153,0,1.078,1.078,0,0,1-2.153,0Zm1.986,2.179v6.178h-1.792v-6.178Z"
+                                            transform="translate(-191.813 -312.592)" fill="#c80041" />
+                                        <path id="Path_280" data-name="Path 280"
+                                            d="M253.485,326.212V329.6h-1.793v-3.237c0-.98-.49-1.509-1.328-1.509a1.847,1.847,0,0,0-1.354.774V329.6h-1.792v-6.177h1.792v.439a2.74,2.74,0,0,1,1.767-.632A2.686,2.686,0,0,1,253.485,326.212Z"
+                                            transform="translate(-200.826 -320.189)" fill="#c80041" />
+                                        <path id="Path_281" data-name="Path 281"
+                                            d="M279.578,323.426v6.1a2.959,2.959,0,0,1-3.2,3.1,3.017,3.017,0,0,1-3.25-2.67h1.806c.077.645.593,1.07,1.444,1.07a1.358,1.358,0,0,0,1.419-1.483v-.619a3.151,3.151,0,0,1-1.754.477,3.075,3.075,0,0,1-3.082-3.005,3.045,3.045,0,0,1,3.082-3.159,3.153,3.153,0,0,1,1.754.49v-.3Zm-1.78,3.727V325.49a1.689,1.689,0,0,0-1.457-.735,1.547,1.547,0,0,0-1.6,1.638,1.59,1.59,0,0,0,1.6,1.5A1.689,1.689,0,0,0,277.8,327.153Z"
+                                            transform="translate(-219.207 -320.189)" fill="#c80041" />
+                                        <path id="Path_282" data-name="Path 282"
+                                            d="M319.974,319.555a3.121,3.121,0,0,1-3.069,3.224,3.154,3.154,0,0,1-1.754-.49v.361h-1.793v-9.156h1.793v3.34a3.139,3.139,0,0,1,4.823,2.721Zm-1.767,0a1.636,1.636,0,0,0-1.6-1.689,1.741,1.741,0,0,0-1.457.71v1.973a1.723,1.723,0,0,0,1.457.722A1.65,1.65,0,0,0,318.207,319.555Z"
+                                            transform="translate(-248.047 -313.236)" fill="#c80041" />
+                                        <path id="Path_283" data-name="Path 283"
+                                            d="M346.053,326.973H341.5a1.491,1.491,0,0,0,1.6,1.29,1.134,1.134,0,0,0,1.045-.464h1.87a2.926,2.926,0,0,1-2.953,2,3.191,3.191,0,0,1-3.327-3.276,3.145,3.145,0,0,1,3.276-3.288,2.986,2.986,0,0,1,3.082,3.159A3.592,3.592,0,0,1,346.053,326.973Zm-4.539-1.057h2.8a1.231,1.231,0,0,0-1.29-1.2A1.447,1.447,0,0,0,341.514,325.915Z"
+                                            transform="translate(-266.878 -320.189)" fill="#c80041" />
+                                        <path id="Path_284" data-name="Path 284"
+                                            d="M369.432,324.492a4.734,4.734,0,0,1-1.664.284,2.421,2.421,0,0,1-2.476-2.657v-2.205h-1.3V318.4h1.3v-2.2h1.78v2.2H369.3v1.509h-2.231v2.193a.949.949,0,0,0,1.083,1.019,4.294,4.294,0,0,0,1.045-.168Z"
+                                            transform="translate(-284.196 -315.168)" fill="#c80041" />
+                                        <path id="Path_285" data-name="Path 285"
+                                            d="M389.541,324.492a4.734,4.734,0,0,1-1.664.284,2.421,2.421,0,0,1-2.476-2.657v-2.205h-1.3V318.4h1.3v-2.2h1.78v2.2h2.231v1.509h-2.231v2.193a.949.949,0,0,0,1.083,1.019,4.294,4.294,0,0,0,1.045-.168Z"
+                                            transform="translate(-298.553 -315.168)" fill="#c80041" />
+                                        <path id="Path_286" data-name="Path 286"
+                                            d="M411.608,326.973h-4.552a1.492,1.492,0,0,0,1.6,1.29,1.133,1.133,0,0,0,1.045-.464h1.87a2.926,2.926,0,0,1-2.953,2,3.191,3.191,0,0,1-3.327-3.276,3.145,3.145,0,0,1,3.276-3.288,2.986,2.986,0,0,1,3.082,3.159A3.627,3.627,0,0,1,411.608,326.973Zm-4.539-1.057h2.8a1.23,1.23,0,0,0-1.289-1.2A1.447,1.447,0,0,0,407.069,325.915Z"
+                                            transform="translate(-313.681 -320.189)" fill="#c80041" />
+                                        <path id="Path_287" data-name="Path 287"
+                                            d="M433.412,324.347a3.027,3.027,0,0,1,2.167-.8v1.7a2.879,2.879,0,0,0-2.167.89v3.688h-1.793v-6.178h1.793Z"
+                                            transform="translate(-332.48 -320.414)" fill="#c80041" />
+                                        <path id="Path_288" data-name="Path 288"
+                                            d="M466.279,323.426v6.1a2.959,2.959,0,0,1-3.2,3.1,3.016,3.016,0,0,1-3.25-2.67h1.805c.077.645.593,1.07,1.445,1.07a1.358,1.358,0,0,0,1.418-1.483v-.619a3.15,3.15,0,0,1-1.754.477,3.075,3.075,0,0,1-3.082-3.005,3.045,3.045,0,0,1,3.082-3.159,3.152,3.152,0,0,1,1.754.49v-.3Zm-1.779,3.727V325.49a1.689,1.689,0,0,0-1.457-.735,1.547,1.547,0,0,0-1.6,1.638,1.589,1.589,0,0,0,1.6,1.5A1.689,1.689,0,0,0,464.5,327.153Z"
+                                            transform="translate(-352.502 -320.189)" fill="#c80041" />
+                                        <path id="Path_289" data-name="Path 289"
+                                            d="M490.13,324.347a3.027,3.027,0,0,1,2.167-.8v1.7a2.88,2.88,0,0,0-2.167.89v3.688h-1.793v-6.178h1.793Z"
+                                            transform="translate(-372.973 -320.414)" fill="#c80041" />
+                                        <path id="Path_290" data-name="Path 290"
+                                            d="M511.037,326.682a3.3,3.3,0,1,1-3.289-3.224A3.155,3.155,0,0,1,511.037,326.682Zm-1.767,0a1.537,1.537,0,1,0-3.069,0,1.541,1.541,0,1,0,3.069,0Z"
+                                            transform="translate(-384.466 -320.35)" fill="#c80041" />
+                                        <path id="Path_291" data-name="Path 291"
+                                            d="M536.229,330.086h-1.586l-1.122-3.4-1.135,3.4h-1.573l-2.257-6.178h1.922l1.135,3.443,1.16-3.443h1.483l1.173,3.456,1.135-3.456h1.922Z"
+                                            transform="translate(-401.688 -320.671)" fill="#c80041" />
+                                        <path id="Path_292" data-name="Path 292"
+                                            d="M569.662,324.492a4.734,4.734,0,0,1-1.664.284,2.421,2.421,0,0,1-2.476-2.657v-2.205h-1.3V318.4h1.3v-2.2h1.78v2.2h2.231v1.509H567.3v2.193a.949.949,0,0,0,1.083,1.019,4.291,4.291,0,0,0,1.044-.168Z"
+                                            transform="translate(-427.15 -315.168)" fill="#c80041" />
+                                        <path id="Path_293" data-name="Path 293"
+                                            d="M593.616,319.259v3.392h-1.793v-3.237c0-.98-.49-1.509-1.328-1.509a1.847,1.847,0,0,0-1.354.774v3.972h-1.793v-9.156h1.793v3.418a2.739,2.739,0,0,1,1.767-.632A2.686,2.686,0,0,1,593.616,319.259Z"
+                                            transform="translate(-443.662 -313.236)" fill="#c80041" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <main class="main">
+
+
+        <section id="section-1" class="section section--spacing-above ">
+            <div class="wrapper--1 d-flex">
+                <div>
+                    <h2 class="heading--2">
+                        40 Years of Unlocking <br /> Better Growth
+                    </h2>
+                    <h4 class="heading--4">Over four decades, Simon-Kucher has focused on driving sustainable
+                        and profitable growth across industries.</h4>
+                    <div class="section-article">
+                        <p>
+                            What began as a pioneering effort in pricing strategy has expanded to include innovation
+                            in pricing, sales, marketing, and digital transformation. Our data-driven insights empower
+                            businesses to reach their full potential, attracting top talent and clients worldwide.
+                        </p>
+                        <p>
+                            As you scroll through our story, explore the milestones, innovations, and people that
+                            defined
+                            Simon-Kucher’s
+                            journey. Join us in celebrating 40 years of transformative growth and discover how we’ve
+                            helped
+                            businesses unlock their true growth potential.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="modal fade" id="carouselModal" tabindex="-1" role="dialog" aria-labelledby="carouselModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.503525 0.503525C0.662733 0.343915 0.851865 0.21728 1.06009 0.130877C1.26831 0.0444739 1.49154 0 1.71698 0C1.94241 0 2.16564 0.0444739 2.37386 0.130877C2.58209 0.21728 2.77122 0.343915 2.93043 0.503525L12.0004 9.57698L21.0705 0.503525C21.2298 0.344173 21.419 0.217767 21.6272 0.131526C21.8354 0.0452851 22.0586 0.000897348 22.2839 0.000897348C22.5093 0.000897348 22.7324 0.0452851 22.9406 0.131526C23.1488 0.217767 23.338 0.344173 23.4974 0.503525C23.6567 0.662878 23.7831 0.852056 23.8694 1.06026C23.9556 1.26846 24 1.49162 24 1.71698C24 1.94233 23.9556 2.16549 23.8694 2.37369C23.7831 2.58189 23.6567 2.77107 23.4974 2.93043L14.4239 12.0004L23.4974 21.0705C23.6567 21.2298 23.7831 21.419 23.8694 21.6272C23.9556 21.8354 24 22.0586 24 22.2839C24 22.5093 23.9556 22.7324 23.8694 22.9406C23.7831 23.1488 23.6567 23.338 23.4974 23.4974C23.338 23.6567 23.1488 23.7831 22.9406 23.8694C22.7324 23.9556 22.5093 24 22.2839 24C22.0586 24 21.8354 23.9556 21.6272 23.8694C21.419 23.7831 21.2298 23.6567 21.0705 23.4974L12.0004 14.4239L2.93043 23.4974C2.77107 23.6567 2.58189 23.7831 2.37369 23.8694C2.16549 23.9556 1.94233 24 1.71698 24C1.49162 24 1.26846 23.9556 1.06026 23.8694C0.852056 23.7831 0.662878 23.6567 0.503525 23.4974C0.344173 23.338 0.217767 23.1488 0.131526 22.9406C0.0452851 22.7324 0.000897348 22.5093 0.000897348 22.2839C0.000897348 22.0586 0.0452851 21.8354 0.131526 21.6272C0.217767 21.419 0.344173 21.2298 0.503525 21.0705L9.57698 12.0004L0.503525 2.93043C0.343915 2.77122 0.21728 2.58209 0.130877 2.37386C0.0444739 2.16564 0 1.94241 0 1.71698C0 1.49154 0.0444739 1.26831 0.130877 1.06009C0.21728 0.851865 0.343915 0.662733 0.503525 0.503525Z"
+                                    fill="black" />
+                            </svg>
+                        </button>
+                        <h1 class="book-title"></h1>
+                        <p class="book-subtitle"></p>
+                        <p class="book-description"></p>
+                        <p>
+                            <a href="" class="button__wrapper button--4">
+                                <span class="button-content">Buy book</span>
+                                <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="diagramModal" tabindex="-1" role="dialog" aria-labelledby="diagramModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.503525 0.503525C0.662733 0.343915 0.851865 0.21728 1.06009 0.130877C1.26831 0.0444739 1.49154 0 1.71698 0C1.94241 0 2.16564 0.0444739 2.37386 0.130877C2.58209 0.21728 2.77122 0.343915 2.93043 0.503525L12.0004 9.57698L21.0705 0.503525C21.2298 0.344173 21.419 0.217767 21.6272 0.131526C21.8354 0.0452851 22.0586 0.000897348 22.2839 0.000897348C22.5093 0.000897348 22.7324 0.0452851 22.9406 0.131526C23.1488 0.217767 23.338 0.344173 23.4974 0.503525C23.6567 0.662878 23.7831 0.852056 23.8694 1.06026C23.9556 1.26846 24 1.49162 24 1.71698C24 1.94233 23.9556 2.16549 23.8694 2.37369C23.7831 2.58189 23.6567 2.77107 23.4974 2.93043L14.4239 12.0004L23.4974 21.0705C23.6567 21.2298 23.7831 21.419 23.8694 21.6272C23.9556 21.8354 24 22.0586 24 22.2839C24 22.5093 23.9556 22.7324 23.8694 22.9406C23.7831 23.1488 23.6567 23.338 23.4974 23.4974C23.338 23.6567 23.1488 23.7831 22.9406 23.8694C22.7324 23.9556 22.5093 24 22.2839 24C22.0586 24 21.8354 23.9556 21.6272 23.8694C21.419 23.7831 21.2298 23.6567 21.0705 23.4974L12.0004 14.4239L2.93043 23.4974C2.77107 23.6567 2.58189 23.7831 2.37369 23.8694C2.16549 23.9556 1.94233 24 1.71698 24C1.49162 24 1.26846 23.9556 1.06026 23.8694C0.852056 23.7831 0.662878 23.6567 0.503525 23.4974C0.344173 23.338 0.217767 23.1488 0.131526 22.9406C0.0452851 22.7324 0.000897348 22.5093 0.000897348 22.2839C0.000897348 22.0586 0.0452851 21.8354 0.131526 21.6272C0.217767 21.419 0.344173 21.2298 0.503525 21.0705L9.57698 12.0004L0.503525 2.93043C0.343915 2.77122 0.21728 2.58209 0.130877 2.37386C0.0444739 2.16564 0 1.94241 0 1.71698C0 1.49154 0.0444739 1.26831 0.130877 1.06009C0.21728 0.851865 0.343915 0.662733 0.503525 0.503525Z"
+                                    fill="black" />
+                            </svg>
+
+                        </button>
+                        <h1 class="book-title">GenAI</h1>
+                        <p class="book-description"></p>
+                        <p>
+                            <a href="" class="button__wrapper button--4">
+                                <span class="button-content">More about GenAI</span>
+                                <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.503525 0.503525C0.662733 0.343915 0.851865 0.21728 1.06009 0.130877C1.26831 0.0444739 1.49154 0 1.71698 0C1.94241 0 2.16564 0.0444739 2.37386 0.130877C2.58209 0.21728 2.77122 0.343915 2.93043 0.503525L12.0004 9.57698L21.0705 0.503525C21.2298 0.344173 21.419 0.217767 21.6272 0.131526C21.8354 0.0452851 22.0586 0.000897348 22.2839 0.000897348C22.5093 0.000897348 22.7324 0.0452851 22.9406 0.131526C23.1488 0.217767 23.338 0.344173 23.4974 0.503525C23.6567 0.662878 23.7831 0.852056 23.8694 1.06026C23.9556 1.26846 24 1.49162 24 1.71698C24 1.94233 23.9556 2.16549 23.8694 2.37369C23.7831 2.58189 23.6567 2.77107 23.4974 2.93043L14.4239 12.0004L23.4974 21.0705C23.6567 21.2298 23.7831 21.419 23.8694 21.6272C23.9556 21.8354 24 22.0586 24 22.2839C24 22.5093 23.9556 22.7324 23.8694 22.9406C23.7831 23.1488 23.6567 23.338 23.4974 23.4974C23.338 23.6567 23.1488 23.7831 22.9406 23.8694C22.7324 23.9556 22.5093 24 22.2839 24C22.0586 24 21.8354 23.9556 21.6272 23.8694C21.419 23.7831 21.2298 23.6567 21.0705 23.4974L12.0004 14.4239L2.93043 23.4974C2.77107 23.6567 2.58189 23.7831 2.37369 23.8694C2.16549 23.9556 1.94233 24 1.71698 24C1.49162 24 1.26846 23.9556 1.06026 23.8694C0.852056 23.7831 0.662878 23.6567 0.503525 23.4974C0.344173 23.338 0.217767 23.1488 0.131526 22.9406C0.0452851 22.7324 0.000897348 22.5093 0.000897348 22.2839C0.000897348 22.0586 0.0452851 21.8354 0.131526 21.6272C0.217767 21.419 0.344173 21.2298 0.503525 21.0705L9.57698 12.0004L0.503525 2.93043C0.343915 2.77122 0.21728 2.58209 0.130877 2.37386C0.0444739 2.16564 0 1.94241 0 1.71698C0 1.49154 0.0444739 1.26831 0.130877 1.06009C0.21728 0.851865 0.343915 0.662733 0.503525 0.503525Z"
+                                    fill="black" />
+                            </svg>
+
+                        </button>
+                        <video src="" controls autoplay loop></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="section-2" class="section section--spacing-above  section--spacing-below">
+            <div class="wrapper--1 d-flex">
+                <div>
+                    <h3>
+                        <q>Every new project starts with an ambition.</q>
+                    </h3>
+                    <p>Herman Simon, founder and CEO 1995-2009</p>
+                </div>
+                <svg class="play-image" data-path="01-HESI-Quote.mp3" width="41" height="41" viewBox="0 0 41 41"
+                    fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: -70px;">
+                    <path
+                        d="M20.5 38.4375C15.7427 38.4375 11.1802 36.5477 7.81627 33.1837C4.45234 29.8198 2.5625 25.2573 2.5625 20.5C2.5625 15.7427 4.45234 11.1802 7.81627 7.81627C11.1802 4.45234 15.7427 2.5625 20.5 2.5625C25.2573 2.5625 29.8198 4.45234 33.1837 7.81627C36.5477 11.1802 38.4375 15.7427 38.4375 20.5C38.4375 25.2573 36.5477 29.8198 33.1837 33.1837C29.8198 36.5477 25.2573 38.4375 20.5 38.4375ZM20.5 41C25.9369 41 31.1512 38.8402 34.9957 34.9957C38.8402 31.1512 41 25.9369 41 20.5C41 15.0631 38.8402 9.84881 34.9957 6.00431C31.1512 2.15982 25.9369 0 20.5 0C15.0631 0 9.84881 2.15982 6.00431 6.00431C2.15982 9.84881 0 15.0631 0 20.5C0 25.9369 2.15982 31.1512 6.00431 34.9957C9.84881 38.8402 15.0631 41 20.5 41Z"
+                        fill="white" />
+                    <path
+                        d="M16.0694 12.9535C16.279 12.8455 16.5143 12.7975 16.7494 12.8147C16.9845 12.8319 17.2103 12.9136 17.4019 13.0508L26.3707 19.4571C26.5368 19.5756 26.6722 19.7321 26.7656 19.9135C26.859 20.0949 26.9077 20.296 26.9077 20.5C26.9077 20.7041 26.859 20.9052 26.7656 21.0866C26.6722 21.268 26.5368 21.4244 26.3707 21.543L17.4019 27.9492C17.2103 28.0863 16.9847 28.168 16.7497 28.1852C16.5147 28.2023 16.2795 28.1544 16.07 28.0466C15.8605 27.9388 15.6848 27.7753 15.5622 27.5742C15.4396 27.373 15.3748 27.1419 15.375 26.9063V14.0938C15.3748 13.8582 15.4394 13.6272 15.562 13.426C15.6845 13.2248 15.8601 13.0613 16.0694 12.9535Z"
+                        fill="white" />
+                </svg>
+
+                <svg class="pause-image" width="41" height="41" viewBox="0 0 41 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" style="margin-left: -70px;">
+                    <path
+                        d="M20.5 38.4375C15.7427 38.4375 11.1802 36.5477 7.81627 33.1837C4.45234 29.8198 2.5625 25.2573 2.5625 20.5C2.5625 15.7427 4.45234 11.1802 7.81627 7.81627C11.1802 4.45234 15.7427 2.5625 20.5 2.5625C25.2573 2.5625 29.8198 4.45234 33.1837 7.81627C36.5477 11.1802 38.4375 15.7427 38.4375 20.5C38.4375 25.2573 36.5477 29.8198 33.1837 33.1837C29.8198 36.5477 25.2573 38.4375 20.5 38.4375ZM20.5 41C25.9369 41 31.1512 38.8402 34.9957 34.9957C38.8402 31.1512 41 25.9369 41 20.5C41 15.0631 38.8402 9.84881 34.9957 6.00431C31.1512 2.15982 25.9369 0 20.5 0C15.0631 0 9.84881 2.15982 6.00431 6.00431C2.15982 9.84881 0 15.0631 0 20.5C0 25.9369 2.15982 31.1512 6.00431 34.9957C9.84881 38.8402 15.0631 41 20.5 41Z"
+                        fill="white" />
+                    <rect x="14" y="12.9535" width="5" height="17" rx="2" fill="white" />
+                    <rect x="22" y="12.9535" width="5" height="17" rx="2" fill="white" />
+                </svg>
+
+            </div>
+        </section>
+
+        <div class="sub-header">
+            <div class="wrapper">
+                <div class="header__logo">40 Years of <br /> Transformative Growth</div>
+                <div class="nav-container">
+                    <div class="nav-overflow">
+                        <nav class="header__nav">
+                            <a href="#section-3" class="header__item highlight">
+                                <span class="header__year">1985</span>
+                                <span class="header__text">Our roots</span>
+                            </a>
+                            <a href="#section-4" class="header__item">
+                                <span class="header__year">1996</span>
+                                <span class="header__text">Innovative concepts</span>
+                            </a>
+                            <a href="#section-5" class="header__item">
+                                <span class="header__year">1996</span>
+                                <span class="header__text">Global expertise</span>
+                            </a>
+                            <a href="#section-6" class="header__item">
+                                <span class="header__year">2011</span>
+                                <span class="header__text">Thought leadership</span>
+                            </a>
+                            <a href="#section-7" class="header__item">
+                                <span class="header__year">2017</span>
+                                <span class="header__text">Our people</span>
+                            </a>
+                            <a href="#section-8" class="header__item">
+                                <span class="header__year">2020</span>
+                                <span class="header__text">A better future</span>
+                            </a>
+                            <a href="#section-9" class="header__item">
+                                <span class="header__year">2021</span>
+                                <span class="header__text">Digital solutions</span>
+                            </a>
+                            <a href="#section-10" class="header__item">
+                                <span class="header__year">2022</span>
+                                <span class="header__text">Awards</span>
+                            </a>
+                            <a href="#section-11" class="header__item">
+                                <span class="header__year">2023</span>
+                                <span class="header__text">Unlocking better growth</span>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="section-3" class="section">
+            <div class="wrapper--1">
+                <div class="section-3--head">
+                    <div>
+                        <h2 class="heading--2 highlight">
+                            1985
+                        </h2>
+                        <h2 class="heading--2">
+                            Establishing <br /> our roots
+                        </h2>
+
+                        <h3 class="heading--3">
+                            A vision for <br>
+                            sustainable growth
+                        </h3>
+
+                        <div class="section-article">
+                            <p>since 1985, Simon-Kucher has been guided by forward-thinking leaders dedicated to
+                                building
+                                value
+                                and resilience. From our founders' strategic vision to today's innovatve leadership,
+                                each
+                                transition has refined our mission to empower businesses toward smarter sustainable
+                                growth.
+                            </p>
+
+                            <p>Discover the milestones and leadership shifts that have shaped our journey and redefined
+                                growth
+                                for our clients.</p>
+                        </div>
+
+                        <a href="" class="button__wrapper button--4">
+                            <span class="button-content">More about Simon-Kucher</span>
+                            <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                        </a>
+
+                    </div>
+                    <div class="section-video--group">
+                        <img id="section-3--old__photo" src="./assets/images/photos/Founders1988.jpg" alt="">
+                        <img id="section-3--new__photo" src="./assets/images/photos/Founders2005.jpg" alt="">
+                        <div class="section-video--group__desc">
+                            <p>Where it all began: Our founders' vision laid the foundation for everything we stand for
+                                today. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-list-container">
+                    <ul class="section-lists">
+                        <li class="section-lists--item active">
+                            1985 – Establishing our roots
+                            <p>Simon-Kucher was founded in Bonn, Germany in 1985 as a university spinoff by Prof Dr
+                                Hermann Simon, Dr Eckhard Kucher, and Dr Karl-Heinz Sebastian. Their vision: Use
+                                scientific methods to address real-life business challenges and help companies grow. The
+                                company was led by Hermann Simon as CEO from 1995 until 2009.</p>
+                        </li>
+                        <li class="section-lists--item">
+                            2009 - Dr Georg Tacke and Dr Klaus Hilleke take the reins
+                            <p>Founder Prof Dr Hermann Simon stepped down in 2009 as CEO and remained Chairman. He was
+                                succeeded by co-CEOs Dr Georg Tacke and Dr Klaus Hilleke. In 2016, Georg Tacke took on
+                                the role as sole CEO. When he retired at the end of 2019, Tacke handed over a global
+                                company with 39 offices in 26 countries.</p>
+                        </li>
+                        <li class="section-lists--item">
+                            2020 – Andreas von der Gathen and Mark Billige elected as CEOs
+                            <p>Mark Billige and Dr. Andreas von der Gathen have played a pivotal role in Simon-Kucher’s
+                                evolution. Over their five years as co-CEOs, they have transformed the firm from the
+                                "best-kept secret" in consulting to a recognized global leader in pricing and growth
+                                consulting.</p>
+                        </li>
+                        <li class="section-lists--item">
+                            2025 – Joerg Kruetten and Dr. Gunnar Clausen appointed Co-CEOs
+                            <p>In 2025, Joerg Kruetten and Dr. Gunnar Clausen became co-CEOs. With deep expertise in
+                                strategy, pricing, and business transformation, they bring decades of leadership and
+                                innovation, ensuring Simon-Kucher continues driving success for clients worldwide.</p>
+                        </li>
+                    </ul>
+                    <div class="timeline__description">
+                    </div>
+                </div>
+
+                <div class="section-accordion section--spacing-above">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    1985 – Establishing our roots
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne1"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    2009 - Dr Georg Tacke and Dr Klaus Hilleke take the reins
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo1"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    2020 – Andreas von der Gathen and Mark Billige elected as CEOs
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree1"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Simon-Kucher was founded in Bonn, Germany in 1985 as a university spinoff by Prof Dr
+                                    Hermann Simon, Dr Eckhard Kucher, and Dr Karl-Heinz Sebastian. Their vision: Use
+                                    scientific methods to address real-life business challenges and help companies grow.
+                                    The company was led by Hermann Simon as CEO from 1995 until 2009.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    2025 – Joerg Kruetten and Dr. Gunnar Clausen appointed Co-CEOs
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="section-4" class="section section-corner section--spacing-above section--spacing-below">
+            <div class="wrapper--1 d-flex">
+                <div>
+                </div>
+                <div>
+                    <h2 class="heading--2 highlight">
+                        1996</h2>
+                    <h2 class="heading--2">
+                        Shaping <br /> the future
+                    </h2>
+                    <h4 class="heading--4">
+                        Concepts that <br /> revolutionized business
+                    </h4>
+                    <div class="section-article">
+                        <p>Our stroy is deeply intertwined with groundbreaking ideas that have
+                            helped shape the future of
+                            pricing, marketing and sales. Our founder, Hermann Simon, coined the now-familiar term
+                            "Hidden
+                            Champions" back in 1996, an idea that has since inspired countless businesses worldwide.</p>
+                        <p>Here, we spotlight the innovative frameworks and strategies that not
+                            only distinguish us but have
+                            propelled entire industries forward. Discover our though leadership and best selling
+                            business
+                            books.</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <div class="shaping-card">
+                                <div class="shaping-card--header">
+                                    <h2 class="shaping-card--title">Hidden Champions</h2>
+                                    <svg class="shaping-card--book__icon" viewBox="0 0 34 34">
+                                        <path
+                                            d="M2.12936 4.35611C4.01384 3.52192 6.716 2.62235 9.34363 2.34278C12.1757 2.04067 14.5776 2.48482 15.9702 4.03822V26.0112C13.9792 24.8163 11.456 24.6517 9.12857 24.8997C6.61592 25.1703 4.08198 25.9391 2.12936 26.7282V4.35611ZM18.0996 4.03822C19.4922 2.48482 21.8941 2.04067 24.7261 2.34278C27.3538 2.62235 30.0559 3.52192 31.9404 4.35611V26.7282C29.9857 25.9391 27.4538 25.168 24.9412 24.902C22.6117 24.6517 20.0905 24.814 18.0996 26.0112V4.03822ZM17.0349 2.00009C14.9375 0.0904731 11.8967 -0.193602 9.12857 0.0994914C5.90472 0.44444 2.65105 1.61456 0.623903 2.59079C0.437901 2.68036 0.280171 2.8247 0.169542 3.0066C0.0589124 3.1885 5.65801e-05 3.40026 0 3.61661L0 28.4168C4.93202e-05 28.6054 0.0447957 28.791 0.13014 28.9566C0.215485 29.1221 0.3387 29.2624 0.488498 29.3645C0.638297 29.4665 0.809891 29.5272 0.987562 29.5408C1.16523 29.5545 1.3433 29.5207 1.50546 29.4427C3.38355 28.5408 6.40937 27.4564 9.3415 27.143C12.3418 26.8229 14.8565 27.3391 16.2044 29.1203C16.3042 29.2519 16.4306 29.3582 16.5743 29.4312C16.7181 29.5042 16.8755 29.5421 17.0349 29.5421C17.1943 29.5421 17.3517 29.5042 17.4954 29.4312C17.6392 29.3582 17.7656 29.2519 17.8653 29.1203C19.2132 27.3391 21.728 26.8229 24.7261 27.143C27.6604 27.4564 30.6883 28.5408 32.5643 29.4427C32.7265 29.5207 32.9045 29.5545 33.0822 29.5408C33.2599 29.5272 33.4315 29.4665 33.5813 29.3645C33.7311 29.2624 33.8543 29.1221 33.9396 28.9566C34.025 28.791 34.0697 28.6054 34.0698 28.4168V3.61661C34.0697 3.40026 34.0108 3.1885 33.9002 3.0066C33.7896 2.8247 33.6319 2.68036 33.4459 2.59079C31.4187 1.61456 28.165 0.44444 24.9412 0.0994914C22.173 -0.195857 19.1323 0.0904731 17.0349 2.00009Z"
+                                            fill="#323F48" fill-opacity="0.5" />
+                                    </svg>
+                                </div>
+                                <p class="shaping-card--publish__info">Published 1996, Springer</p>
+                                <p class="shaping-card--description">Hermann Simon published his landmark book "Hidden
+                                    Champions: Lessons from
+                                    500 of the World's Best Unknown Companies," highlighting small and mid-sized firms
+                                    that
+                                    dom...</p>
+                            </div>
+                            <div class="shaping-card">
+                                <div class="shaping-card--header">
+                                    <h2 class="shaping-card--title">Hidden Champions</h2>
+                                    <svg class="shaping-card--book__icon" viewBox="0 0 34 34">
+                                        <path
+                                            d="M2.12936 4.35611C4.01384 3.52192 6.716 2.62235 9.34363 2.34278C12.1757 2.04067 14.5776 2.48482 15.9702 4.03822V26.0112C13.9792 24.8163 11.456 24.6517 9.12857 24.8997C6.61592 25.1703 4.08198 25.9391 2.12936 26.7282V4.35611ZM18.0996 4.03822C19.4922 2.48482 21.8941 2.04067 24.7261 2.34278C27.3538 2.62235 30.0559 3.52192 31.9404 4.35611V26.7282C29.9857 25.9391 27.4538 25.168 24.9412 24.902C22.6117 24.6517 20.0905 24.814 18.0996 26.0112V4.03822ZM17.0349 2.00009C14.9375 0.0904731 11.8967 -0.193602 9.12857 0.0994914C5.90472 0.44444 2.65105 1.61456 0.623903 2.59079C0.437901 2.68036 0.280171 2.8247 0.169542 3.0066C0.0589124 3.1885 5.65801e-05 3.40026 0 3.61661L0 28.4168C4.93202e-05 28.6054 0.0447957 28.791 0.13014 28.9566C0.215485 29.1221 0.3387 29.2624 0.488498 29.3645C0.638297 29.4665 0.809891 29.5272 0.987562 29.5408C1.16523 29.5545 1.3433 29.5207 1.50546 29.4427C3.38355 28.5408 6.40937 27.4564 9.3415 27.143C12.3418 26.8229 14.8565 27.3391 16.2044 29.1203C16.3042 29.2519 16.4306 29.3582 16.5743 29.4312C16.7181 29.5042 16.8755 29.5421 17.0349 29.5421C17.1943 29.5421 17.3517 29.5042 17.4954 29.4312C17.6392 29.3582 17.7656 29.2519 17.8653 29.1203C19.2132 27.3391 21.728 26.8229 24.7261 27.143C27.6604 27.4564 30.6883 28.5408 32.5643 29.4427C32.7265 29.5207 32.9045 29.5545 33.0822 29.5408C33.2599 29.5272 33.4315 29.4665 33.5813 29.3645C33.7311 29.2624 33.8543 29.1221 33.9396 28.9566C34.025 28.791 34.0697 28.6054 34.0698 28.4168V3.61661C34.0697 3.40026 34.0108 3.1885 33.9002 3.0066C33.7896 2.8247 33.6319 2.68036 33.4459 2.59079C31.4187 1.61456 28.165 0.44444 24.9412 0.0994914C22.173 -0.195857 19.1323 0.0904731 17.0349 2.00009Z"
+                                            fill="#323F48" fill-opacity="0.5" />
+                                    </svg>
+                                </div>
+                                <p class="shaping-card--publish__info">Published 1996, Springer</p>
+                                <p class="shaping-card--description">Hermann Simon published his landmark book "Hidden
+                                    Champions: Lessons from
+                                    500 of the World's Best Unknown Companies," highlighting small and mid-sized firms
+                                    that
+                                    dom...</p>
+                            </div>
+                            <div class="shaping-card">
+                                <div class="shaping-card--header">
+                                    <h2 class="shaping-card--title">Value Pricing</h2>
+                                    <svg class="shaping-card--book__icon" viewBox="0 0 34 34">
+                                        <path
+                                            d="M2.12936 4.35611C4.01384 3.52192 6.716 2.62235 9.34363 2.34278C12.1757 2.04067 14.5776 2.48482 15.9702 4.03822V26.0112C13.9792 24.8163 11.456 24.6517 9.12857 24.8997C6.61592 25.1703 4.08198 25.9391 2.12936 26.7282V4.35611ZM18.0996 4.03822C19.4922 2.48482 21.8941 2.04067 24.7261 2.34278C27.3538 2.62235 30.0559 3.52192 31.9404 4.35611V26.7282C29.9857 25.9391 27.4538 25.168 24.9412 24.902C22.6117 24.6517 20.0905 24.814 18.0996 26.0112V4.03822ZM17.0349 2.00009C14.9375 0.0904731 11.8967 -0.193602 9.12857 0.0994914C5.90472 0.44444 2.65105 1.61456 0.623903 2.59079C0.437901 2.68036 0.280171 2.8247 0.169542 3.0066C0.0589124 3.1885 5.65801e-05 3.40026 0 3.61661L0 28.4168C4.93202e-05 28.6054 0.0447957 28.791 0.13014 28.9566C0.215485 29.1221 0.3387 29.2624 0.488498 29.3645C0.638297 29.4665 0.809891 29.5272 0.987562 29.5408C1.16523 29.5545 1.3433 29.5207 1.50546 29.4427C3.38355 28.5408 6.40937 27.4564 9.3415 27.143C12.3418 26.8229 14.8565 27.3391 16.2044 29.1203C16.3042 29.2519 16.4306 29.3582 16.5743 29.4312C16.7181 29.5042 16.8755 29.5421 17.0349 29.5421C17.1943 29.5421 17.3517 29.5042 17.4954 29.4312C17.6392 29.3582 17.7656 29.2519 17.8653 29.1203C19.2132 27.3391 21.728 26.8229 24.7261 27.143C27.6604 27.4564 30.6883 28.5408 32.5643 29.4427C32.7265 29.5207 32.9045 29.5545 33.0822 29.5408C33.2599 29.5272 33.4315 29.4665 33.5813 29.3645C33.7311 29.2624 33.8543 29.1221 33.9396 28.9566C34.025 28.791 34.0697 28.6054 34.0698 28.4168V3.61661C34.0697 3.40026 34.0108 3.1885 33.9002 3.0066C33.7896 2.8247 33.6319 2.68036 33.4459 2.59079C31.4187 1.61456 28.165 0.44444 24.9412 0.0994914C22.173 -0.195857 19.1323 0.0904731 17.0349 2.00009Z"
+                                            fill="#323F48" fill-opacity="0.5" />
+                                    </svg>
+                                </div>
+                                <p class="shaping-card--publish__info">Published 1997, Springer</p>
+                                <p class="shaping-card--description">Simon contributed to the advancement of value
+                                    pricing, arguing that pricing should be determined by the customer’s perception of
+                                    value, not the cost of production. He pointed out that many companies lose
+                                    significant revenue because they underprice their products, failing to capture the
+                                    full value they deliver to customers. His research showed that companies can
+                                    substantially increase profitability by aligning prices with the perceived value
+                                    customers receive from a product or service. Simon-Kucher has continued to apply
+                                    value-based pricing strategies in real-world scenarios, proving their effectiveness
+                                    across industries....</p>
+                            </div>
+                            <div class="shaping-card">
+                                <div class="shaping-card--header">
+                                    <h2 class="shaping-card--title">Monnetizing Innovation</h2>
+                                    <svg class="shaping-card--book__icon" viewBox="0 0 34 34">
+                                        <path
+                                            d="M2.12936 4.35611C4.01384 3.52192 6.716 2.62235 9.34363 2.34278C12.1757 2.04067 14.5776 2.48482 15.9702 4.03822V26.0112C13.9792 24.8163 11.456 24.6517 9.12857 24.8997C6.61592 25.1703 4.08198 25.9391 2.12936 26.7282V4.35611ZM18.0996 4.03822C19.4922 2.48482 21.8941 2.04067 24.7261 2.34278C27.3538 2.62235 30.0559 3.52192 31.9404 4.35611V26.7282C29.9857 25.9391 27.4538 25.168 24.9412 24.902C22.6117 24.6517 20.0905 24.814 18.0996 26.0112V4.03822ZM17.0349 2.00009C14.9375 0.0904731 11.8967 -0.193602 9.12857 0.0994914C5.90472 0.44444 2.65105 1.61456 0.623903 2.59079C0.437901 2.68036 0.280171 2.8247 0.169542 3.0066C0.0589124 3.1885 5.65801e-05 3.40026 0 3.61661L0 28.4168C4.93202e-05 28.6054 0.0447957 28.791 0.13014 28.9566C0.215485 29.1221 0.3387 29.2624 0.488498 29.3645C0.638297 29.4665 0.809891 29.5272 0.987562 29.5408C1.16523 29.5545 1.3433 29.5207 1.50546 29.4427C3.38355 28.5408 6.40937 27.4564 9.3415 27.143C12.3418 26.8229 14.8565 27.3391 16.2044 29.1203C16.3042 29.2519 16.4306 29.3582 16.5743 29.4312C16.7181 29.5042 16.8755 29.5421 17.0349 29.5421C17.1943 29.5421 17.3517 29.5042 17.4954 29.4312C17.6392 29.3582 17.7656 29.2519 17.8653 29.1203C19.2132 27.3391 21.728 26.8229 24.7261 27.143C27.6604 27.4564 30.6883 28.5408 32.5643 29.4427C32.7265 29.5207 32.9045 29.5545 33.0822 29.5408C33.2599 29.5272 33.4315 29.4665 33.5813 29.3645C33.7311 29.2624 33.8543 29.1221 33.9396 28.9566C34.025 28.791 34.0697 28.6054 34.0698 28.4168V3.61661C34.0697 3.40026 34.0108 3.1885 33.9002 3.0066C33.7896 2.8247 33.6319 2.68036 33.4459 2.59079C31.4187 1.61456 28.165 0.44444 24.9412 0.0994914C22.173 -0.195857 19.1323 0.0904731 17.0349 2.00009Z"
+                                            fill="#323F48" fill-opacity="0.5" />
+                                    </svg>
+                                </div>
+                                <p class="shaping-card--publish__info">Published 1998, Springer</p>
+                                <p class="shaping-card--description">The concept of Monetizing Innovation was formalized
+                                    in our firm's 2016 book, Monetizing Innovation, authored by partners Madhavan
+                                    Ramanujam and Georg Tacke. This framework highlighted the importance of integrating
+                                    pricing strategy into the innovation process from the very beginning. This concept
+                                    encourages businesses to integrate pricing and customer value research early in the
+                                    product development cycle, ensuring that products are designed to meet market needs
+                                    and maximize revenue potential....</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-5" class="section section--spacing-above  section--spacing-below">
+            <div class="wrapper--1">
+                <div class="section-5--head d-flex">
+                    <div></div>
+                    <div>
+                        <h2 class="heading--2 highlight">
+                            1996
+                        </h2>
+                        <h2 class="heading--2">
+                            Growing across <br /> borders
+                        </h2>
+                        <h4 class="heading--4">
+                            A global vision for success
+                        </h4>
+                        <div class="section-article">
+                            <p>Since opening our first international office in Boston in 1996, Simon-Kucher’s global
+                                expansion has
+                                been pivotal to our impact. Each new location has offered fresh opportunities to share
+                                our
+                                expertise
+                                with diverse markets, cementing our reputation as a global leader in growth strategies.
+                            </p>
+                            <p>Explore the
+                                milestones of our expansion here.</p>
+                        </div>
+                        <div>
+                            <a href="" class="button__wrapper button--4">
+                                <span class="button-content">See all offices</span>
+                                <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="section-5--map">
+                    <img src="./assets/images/map.png" alt="">
+                </div> -->
+                <p class="section-5--description">
+                    Today, with over 2,000 team members across 30+ countries, we are one of the world’s fastest-growing
+                    consulting firms.
+                </p>
+            </div>
+        </section>
+
+        <section id="section-6"
+            class="section section-dark section-corner section--spacing-above  section--spacing-below">
+            <div class="wrapper--1 d-flex">
+                <div>
+                    <h2 class="heading--2 highlight">
+                        2011
+                    </h2>
+                    <h2 class="heading--2">
+                        Thought leadership
+                    </h2>
+                    <h4 class="heading--4">
+                        Studies shaping
+                        industry thinking
+                    </h4>
+
+                    <div class="section-article">
+                        <p>A core part of our legacy lies in our thought leadership, exemplified by landmark studies
+                            like
+                            our
+                            Global Pricing Study, first launched in 2011. Alongside our renowned reports, our
+                            bestselling
+                            books
+                            – from Monetizing Innovation to The Demand Revolution – have explored the shifting dynamics
+                            of
+                            value, innovation, and sustainability, consistently setting the agenda for pricing,
+                            marketing,
+                            and
+                            sales strategies. Together, these insights help businesses navigate the complexities of
+                            their
+                            industries.</p>
+                        <p>Explore the studies and publications that have established Simon-Kucher as an authoritative
+                            voice
+                            in
+                            business insights.</p>
+                    </div>
+
+                    <div class="section-spans">
+                        <span class="section-span dark">Insights</span>
+                        <span class="section-span dark">Perspectives</span> <br>
+                        <span class="section-span dark">Podcast series</span>
+                        <span class="section-span dark">Case Studies</span>
+                    </div>
+
+                </div>
+                <div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="section-7" class="section section--spacing-above  section--spacing-below">
+            <div class="wrapper--1">
+                <h2 class="heading--2 highlight text-right">
+                    2017
+                </h2>
+                <h3 class="heading--3 text-right">
+                    Our expanding team
+                </h3>
+                <h4 class="heading--4 text-right">
+                    The people behind our progress
+                </h4>
+                <div class="section-7--article">
+                    <div>
+                        <p>
+                            With each step forward, our team has been the force behind our success. Reaching milestones
+                            – such as welcoming our 1,000th team member in 2017– reflects not just growth in numbers,
+                            but in shared vision and commitment. Discover how our team’s collaboration and talent have
+                            shaped our journey and continue to drive what we can achieve together.
+                        </p>
+                        <div class="section-7--card" id="card-1">
+                            <img src="./assets/images/photos/c1.jpg" alt="">
+                            <div class="section-7--card__description">
+                                <p><strong>2017</strong></p>
+                                <p>1000 employee</p>
+                            </div>
+                        </div>
+                        <div class="section-7--card" id="card-3">
+                            <img src="./assets/images/photos/c2.jpg" alt="">
+                            <div class="section-7--card__description">
+                                <p><strong>2022</strong></p>
+                                <p>2000 employees</p>
+                            </div>
+                        </div>
+                        <div class="section-spans align-right">
+                            <div class="section-span light">Careers @ Simon-Kucher</div><br>
+                            <div class="section-span light">People and Stories</div>
+                            <div class="section-span light">Open roles</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="section-7--card" id="card-2">
+                            <img src="./assets/images/photos/c3.jpg" alt="">
+                            <div class="section-7--card__description">
+                                <p class="text-right"><strong>2018</strong></p>
+                                <p class="text-right">100 Parters</p>
+
+                            </div>
+                        </div>
+                        <div class="section-7--card" id="card-4">
+                            <img src="./assets/images/photos/c4.jpg" class="section-7--big__card" alt="">
+                            <div class="section-7--card__description top">
+                                <p>One thing we've always believed in is that successful employees make us a successful
+                                    company. And we understand our key asset is our team. That’s why in 2021 we enhanced
+                                    our existing employee experience initiative: YouFirst – putting a stronger emphasis
+                                    on how we reward, recognize, interact with, and value our team.</p>
+                            </div>
+                            <div class="section-7--card__description">
+                                <p class="text-right"><strong>2021</strong></p>
+                                <p class="text-right">YouFirst employee</p>
+                                <p class="text-right">program implemented</p>
+
+                            </div>
+                        </div>
+                        <div class="section-spans">
+                            <div class="section-span light">Careers @ Simon-Kucher</div><br>
+                            <div class="section-span light">People and Stories</div>
+                            <div class="section-span light">Open roles</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section section-quote section--spacing-above section--spacing-below">
+            <div class="wrapper--1 d-flex">
+
+                <svg class="play-image" data-path="02-GETA-Quote.mp3" width="41" height="41" viewBox="0 0 41 41"
+                    fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: -70px;">
+                    <path
+                        d="M20.5 38.4375C15.7427 38.4375 11.1802 36.5477 7.81627 33.1837C4.45234 29.8198 2.5625 25.2573 2.5625 20.5C2.5625 15.7427 4.45234 11.1802 7.81627 7.81627C11.1802 4.45234 15.7427 2.5625 20.5 2.5625C25.2573 2.5625 29.8198 4.45234 33.1837 7.81627C36.5477 11.1802 38.4375 15.7427 38.4375 20.5C38.4375 25.2573 36.5477 29.8198 33.1837 33.1837C29.8198 36.5477 25.2573 38.4375 20.5 38.4375ZM20.5 41C25.9369 41 31.1512 38.8402 34.9957 34.9957C38.8402 31.1512 41 25.9369 41 20.5C41 15.0631 38.8402 9.84881 34.9957 6.00431C31.1512 2.15982 25.9369 0 20.5 0C15.0631 0 9.84881 2.15982 6.00431 6.00431C2.15982 9.84881 0 15.0631 0 20.5C0 25.9369 2.15982 31.1512 6.00431 34.9957C9.84881 38.8402 15.0631 41 20.5 41Z"
+                        fill="white" />
+                    <path
+                        d="M16.0694 12.9535C16.279 12.8455 16.5143 12.7975 16.7494 12.8147C16.9845 12.8319 17.2103 12.9136 17.4019 13.0508L26.3707 19.4571C26.5368 19.5756 26.6722 19.7321 26.7656 19.9135C26.859 20.0949 26.9077 20.296 26.9077 20.5C26.9077 20.7041 26.859 20.9052 26.7656 21.0866C26.6722 21.268 26.5368 21.4244 26.3707 21.543L17.4019 27.9492C17.2103 28.0863 16.9847 28.168 16.7497 28.1852C16.5147 28.2023 16.2795 28.1544 16.07 28.0466C15.8605 27.9388 15.6848 27.7753 15.5622 27.5742C15.4396 27.373 15.3748 27.1419 15.375 26.9063V14.0938C15.3748 13.8582 15.4394 13.6272 15.562 13.426C15.6845 13.2248 15.8601 13.0613 16.0694 12.9535Z"
+                        fill="white" />
+                </svg>
+
+                <svg class="pause-image" width="41" height="41" viewBox="0 0 41 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" style="margin-left: -70px;">
+                    <path
+                        d="M20.5 38.4375C15.7427 38.4375 11.1802 36.5477 7.81627 33.1837C4.45234 29.8198 2.5625 25.2573 2.5625 20.5C2.5625 15.7427 4.45234 11.1802 7.81627 7.81627C11.1802 4.45234 15.7427 2.5625 20.5 2.5625C25.2573 2.5625 29.8198 4.45234 33.1837 7.81627C36.5477 11.1802 38.4375 15.7427 38.4375 20.5C38.4375 25.2573 36.5477 29.8198 33.1837 33.1837C29.8198 36.5477 25.2573 38.4375 20.5 38.4375ZM20.5 41C25.9369 41 31.1512 38.8402 34.9957 34.9957C38.8402 31.1512 41 25.9369 41 20.5C41 15.0631 38.8402 9.84881 34.9957 6.00431C31.1512 2.15982 25.9369 0 20.5 0C15.0631 0 9.84881 2.15982 6.00431 6.00431C2.15982 9.84881 0 15.0631 0 20.5C0 25.9369 2.15982 31.1512 6.00431 34.9957C9.84881 38.8402 15.0631 41 20.5 41Z"
+                        fill="white" />
+                    <rect x="14" y="12.9535" width="5" height="17" rx="2" fill="white" />
+                    <rect x="22" y="12.9535" width="5" height="17" rx="2" fill="white" />
+                </svg>
+
+                <div>
+                    <h4 class="heading--4">
+                        <q>The key to Simon-Kucher's success: hiring, developing, and nurturing the best talent to
+                            thrive in our culture - past and future.</q>
+                    </h4>
+                    <small>Georg Tacke, Simon-Kucher CEO 1995-2019</small>
+                </div>
+
+            </div>
+        </div>
+
+
+        <section id="section-8" class="section section--spacing-below">
+            <div class="wrapper--1 d-flex">
+                <div>
+                    <div class="section-8--head">
+                        <h2 class="heading--2 highlight">
+                            2020
+                        </h2>
+                        <h2 class="heading--2">
+                            Helping build a better future
+                        </h2>
+
+                        <h4 class="heading--4">
+                            Creating positive impact for our <br />
+                            people, planet, and society
+                        </h4>
+                        <div class="section-article">
+                            <p>Our journey extends beyond business; it’s about contributing to meaningful change.
+                                Through
+                                initiatives that drive sustainability, champion diversity and inclusion, and promote
+                                social
+                                responsibility, Simon-Kucher is dedicated to a future that benefits and creates
+                                opportunity
+                                everyone.</p>
+                            <p>Discover how we’re making a positive impact – for our people, our planet, and
+                                society as a whole</p>
+                        </div>
+                    </div>
+                    <div class="section-list-container">
+                        <ul class="section-lists">
+                            <li class="section-lists--item active">
+                                Publishing our first ESG report
+                                <p>We've always been committed to making a positive change. Serving our community and
+                                    clients to the best of our ability is simply part of our DNA. It is, therefore, only
+                                    natural that this focus extends to our commitment to corporate responsibility and
+                                    sustainability. In 2020, we published our first annual global ESG report.
+                                    <br>
+                                    <br>
+                                    <a href="" class="button__wrapper button--4">
+                                        <span class="button-content">Pro bono case studies</span>
+                                        <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                                    </a>
+                                </p>
+                                
+                            </li>
+                            <li class="section-lists--item">
+                                Empowering sustainable business growth
+                                <p>At Simon-Kucher, we empower businesses to achieve their sustainability goals by
+                                    integrating sustainable practices into commercial strategies. By designing
+                                    market-fit sustainable products, optimizing pricing for green offerings, and
+                                    developing strong value propositions, we ensure initiatives drive both environmental
+                                    impact and competitive advantage, positioning companies as leaders in the transition
+                                    to a greener future. Sustainability consulting
+                                    <br>
+                                    <br>
+                                    <a href="" class="button__wrapper button--4">
+                                        <span class="button-content">Pro bono case studies</span>
+                                        <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                                    </a>
+                                </p>
+                            </li>
+                            <li class="section-lists--item">
+                                Projects that make a difference
+                                <p>At Simon-Kucher, we offer pro bono support to non-profit organizations, leveraging
+                                    our expertise in strategy, marketing, and pricing. By collaborating with these
+                                    clients, we help them maximize their impact, optimize resources, and drive
+                                    sustainable growth, making a difference in the communities they serve. Pro bono case
+                                    studies
+                                    <br>
+                                    <br>
+                                    <a href="" class="button__wrapper button--4">
+                                        <span class="button-content">Pro bono case studies</span>
+                                        <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                                    </a>
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="timeline__description">
+                        </div>
+
+                    </div>
+                    <div class="section-accordion section--spacing-above">
+                        <div class="accordion" id="accordionExample2">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne2">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne2" aria-expanded="true"
+                                        aria-controls="collapseOne2">
+                                        Publishing our first ESG report
+                                    </button>
+                                </h2>
+                                <div id="collapseOne2" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne2" data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo2" aria-expanded="false"
+                                        aria-controls="collapseTwo2">
+                                        Empowering sustainable business growth
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2"
+                                    data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThre2" aria-expanded="false"
+                                        aria-controls="collapseThre2">
+                                        Projects that make a difference
+                                    </button>
+                                </h2>
+                                <div id="collapseThre2" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree2" data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </section>
+
+        <section id="section-9"
+            class="section section-dark section-corner section--spacing-above  section--spacing-below">
+            <div class="wrapper--1">
+                <h2 class="heading--2 highlight">
+                    2021
+                </h2>
+                <h2 class="heading--2">
+                    Innovating for tomorrow
+                </h2>
+                <h4 class="heading--4">
+                    Simon-Kucher Engine &
+                </h4>
+                <h4 class="heading--4">
+                    Simon-Kucher Elevate
+                </h4>
+                <div class="section-article">
+                    <p>To fuel smarter growth, we’re harnessing the full potential of technology. Launched in 2021, our
+                        commercial software company combines 35 years of unique monetization expertise with tailored
+                        digital
+                        solutions. Our technology and thinking, as a service. Straightforward and built to achieve the
+                        results you need – quickly and reliably.</p>
+
+                    <p>Explore our advanced tools for optimizing pricing, sales, and marketing.</p>
+                </div>
+                <div class="section-spans">
+                    <p>
+                        <a href="" class="button__wrapper button--4 button-dark">
+                            <span class="button-content">Digital Growth - Elevate</span>
+                            <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="" class="button__wrapper button--4 button-dark">
+                            <span class="button-content">Software For Commercial Growth - Engine</span>
+                            <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                        </a>
+                    </p>
+                </div>
+                <div class="section-9--diagram__card">
+                    <div class="card-popup--btn">
+                        <img src="./assets/images/add-button.png" alt="">
+                    </div>
+                    <h5 class="heading--5">GenAI at Simon-Kucher</h5>
+                    <p class="diagram-card--description">AI has taken the world by storm, revolutionizing the way
+                        businesses operate and make decisions.
+                        What once seemed like science fiction is now a driving force behind innovation across
+                        industries. Companies are using AI and big data analytics to transform pricing strategies,
+                        enabling more precise, real-time adjustments based on customer behavior and market conditions.
+                        In sales and marketing, AI-powered tools are rewriting the playbook. From predicting sales
+                        trends to offering personalized product recommendations, AI is empowering companies to stay
+                        ahead of the curve. Simon-Kucher is at the forefront of these trends, guiding companies to
+                        harness AI's full potential. Discover our insights on how GenAI is shaping the future of
+                        business and how you can stay ahead in this rapidly evolving landscape.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="section-10" class="section section--spacing-above  section--spacing-below">
+            <div class="wrapper--1">
+                <h2 class="heading--2 highlight text-right">
+                    2022
+                </h2>
+                <h2 class="heading--2 text-right">
+                    Recognition
+                </h2>
+                <h2 class="heading--2 text-right">
+                    and excellence
+                </h2>
+                <h4 class="heading--4 text-right">
+                    Awards that
+                </h4>
+                <h4 class="heading--4 text-right">
+                    celebrate our impact
+                </h4>
+                <p class="section-article">
+                    Over the years, Simon-Kucher has been honored with numerous awards that reflect our
+                    commitment to excellence and leadership in the industry. From being named a global leader by
+                    Forbes to other prestigious recognitions, these awards validate the results-driven solutions
+                    we deliver to clients worldwide. Discover the milestones in our journey of excellence,
+                    showcasing the moments when our dedication to innovation and growth strategies received
+                    recognition on the global stage.
+                </p>
+
+                <div class="section-brands">
+                    <img src="./assets/images/brands/brand1.jpg" alt="">
+                    <img src="./assets/images/brands/brand2.jpg" alt="">
+                    <img src="./assets/images/brands/brand3.jpg" alt="">
+                    <img src="./assets/images/brands/brand4.jpg" alt="">
+                    <img src="./assets/images/brands/brand5.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <div class="section section-quote section--spacing-above section--spacing-below">
+            <div class="wrapper--1 d-flex">
+                <div class="section-quote--video">
+                    <img src="./assets/images/photos/mark.gif" alt="">
+                    <svg class="video-play--button" data-path="04_MABI_BetterGrowth_final.mp4" width="41" height="41"
+                        viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20.5 38.4375C15.7427 38.4375 11.1802 36.5477 7.81627 33.1837C4.45234 29.8198 2.5625 25.2573 2.5625 20.5C2.5625 15.7427 4.45234 11.1802 7.81627 7.81627C11.1802 4.45234 15.7427 2.5625 20.5 2.5625C25.2573 2.5625 29.8198 4.45234 33.1837 7.81627C36.5477 11.1802 38.4375 15.7427 38.4375 20.5C38.4375 25.2573 36.5477 29.8198 33.1837 33.1837C29.8198 36.5477 25.2573 38.4375 20.5 38.4375ZM20.5 41C25.9369 41 31.1512 38.8402 34.9957 34.9957C38.8402 31.1512 41 25.9369 41 20.5C41 15.0631 38.8402 9.84881 34.9957 6.00431C31.1512 2.15982 25.9369 0 20.5 0C15.0631 0 9.84881 2.15982 6.00431 6.00431C2.15982 9.84881 0 15.0631 0 20.5C0 25.9369 2.15982 31.1512 6.00431 34.9957C9.84881 38.8402 15.0631 41 20.5 41Z"
+                            fill="white" />
+                        <path
+                            d="M16.0694 12.9535C16.279 12.8455 16.5143 12.7975 16.7494 12.8147C16.9845 12.8319 17.2103 12.9136 17.4019 13.0508L26.3707 19.4571C26.5368 19.5756 26.6722 19.7321 26.7656 19.9135C26.859 20.0949 26.9077 20.296 26.9077 20.5C26.9077 20.7041 26.859 20.9052 26.7656 21.0866C26.6722 21.268 26.5368 21.4244 26.3707 21.543L17.4019 27.9492C17.2103 28.0863 16.9847 28.168 16.7497 28.1852C16.5147 28.2023 16.2795 28.1544 16.07 28.0466C15.8605 27.9388 15.6848 27.7753 15.5622 27.5742C15.4396 27.373 15.3748 27.1419 15.375 26.9063V14.0938C15.3748 13.8582 15.4394 13.6272 15.562 13.426C15.6845 13.2248 15.8601 13.0613 16.0694 12.9535Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <div>
+                    <h4>
+                        <q>
+                            Growth isn't just sales or innovation – it's about aligning with customer desires for
+                            long-term profits and societal impact.
+                        </q>
+                    </h4>
+                    <br>
+                    <p>Mark Billige, Simon-Kucher CEO 2000-2024</p>
+
+                </div>
+            </div>
+        </div>
+
+        <section id="section-11" class="section section--spacing-above section--spacing-below">
+            <div class="section-3--head">
+                <div class="wrapper--1">
+                    <h2 class="heading--2 highlight">
+                        2023
+                    </h2>
+                    <h2 class="heading--2">
+                        Celebrating 40 Years of
+                        Unlocking Better Growth
+                    </h2>
+                    <p class="section-article"> In 2023, we introduced a new brand that better reflects who we are
+                        today. While much has evolved
+                        over the last forty years —our offerings, our reach—our heritage and legacy remain core to our
+                        journey. As we look to the future, we continue moving toward our vision of becoming the world’s
+                        leading growth specialist.</p>
+
+                    <a href="" class="button__wrapper button--4">
+                        <span class="button-content">More about Better Growth</span>
+                        <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-12" class="section section--spacing-below">
+            <div class="wrapper--1">
+                <h2 class="heading--2 highlight text-right">
+                    2025+
+                </h2>
+                <h2 class="heading--2 text-right">
+                    Build on our legacy of success
+                </h2>
+                <p class="section-article text-right">
+                    For 40 years, we’ve empowered businesses with smart pricing, marketing, and sales strategies that
+                    deliver results. Let’s connect and explore how we can help your business grow.
+                </p>
+                <div class="section-contact--form">
+                    <div class="section-contact--form__content">
+                        <div class="input-group">
+                            <label for="">First Name</label>
+                            <input type="text" name="first_name" id="">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Last Name</label>
+                            <input type="text" name="last_name" id="">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Email</label>
+                            <input type="text" name="email" id="">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Country of residence</label>
+                            <input type="text" name="country" id="">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Industry</label>
+                            <input type="text" name="industry" id="">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Company Name</label>
+                            <input type="text" name="company" id="">
+                        </div>
+                        <div class="input-group full-width">
+                            <label for="">Message</label>
+                            <textarea name="description"
+                                id="">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</textarea>
+                        </div>
+                        <button id="section-contact--form__submit" type="submit" class="button__wrapper button--4">
+                            <span class="button-content">Submit</span>
+                            <span class="button-icon"><i class="bi bi-arrow-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section section-quote section--spacing-above section--spacing-below">
+            <div class="wrapper--1 d-flex">
+                <h4>
+                    <q>
+                        From pioneering pricing strategies to delivering complete commercial growth solutions, we’ve
+                        been helping businesses genuinely meet people’s needs, driving trust, loyalty, and sustainable
+                        success.
+                    </q>
+                </h4>
+                <br>
+                <p>Joerg Kruetten & Dr. Gunnar Clausen, Simon-Kucher co-CEOs 2025</p>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+    <footer class="footer">
+        <section class="footer__links">
+            <div class="wrapper--1">
+                <div class="grid__wrapper grid--column-12">
+                    <div class="grid grid--se-1-3 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <ul>
+                                <li><b> <a href="/de/contact-us" data-drupal-link-system-path="node/5322">Kontakt</a>
+                                    </b></li>
+                                <li><b> <a href="/de/wer-wir-sind/uber-uns"
+                                            data-drupal-link-system-path="node/5289">Über uns</a> </b></li>
+                                <li><b> <a href="/de/wer-wir-sind/newsroom"
+                                            data-drupal-link-system-path="node/5323">Newsroom</a> </b></li>
+                                <li><b> <a href="/de/events" data-drupal-link-system-path="node/5287">Webinars</a> </b>
+                                </li>
+                                <li><b> <a href="/de/events" data-drupal-link-system-path="node/5287">Events</a> </b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid grid--se-3-6 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <p> <b> Unsere Branchen</b></p>
+                            <ul>
+                                <li> <a href="/de/branchen/consumer"
+                                        data-drupal-link-system-path="taxonomy/term/187">Consumer</a></li>
+                                <li> <a href="/de/branchen/financial-services"
+                                        data-drupal-link-system-path="taxonomy/term/192">Financial Services</a></li>
+                                <li> <a href="/de/branchen/healthcare-life-sciences"
+                                        data-drupal-link-system-path="taxonomy/term/212">Healthcare &amp; Life
+                                        Sciences</a></li>
+                                <li> <a href="/de/branchen/industrials"
+                                        data-drupal-link-system-path="taxonomy/term/329">Industrials</a></li>
+                                <li> <a href="/de/branchen/technologie-medien-telekommunikation"
+                                        data-drupal-link-system-path="taxonomy/term/331">Technology, Media &amp;
+                                        Telecom</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid grid--se-6-9 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <div class="grid__content">
+                                <p><b>Better growth starts here</b></p>
+                                <div class="button__wrapper"><a class="button button--3" href="/de/careers"><span
+                                            class="button-content">Karriere</span><span class="button-icon"><i
+                                                class="bi bi-arrow-right"></i></span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid--se-9-13 grid--as-top ta--right">
+                        <div class="grid__content">
+                            <div class="logo__wrapper"> <a href="/de"> <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="150" height="78.608" viewBox="0 0 150 78.608">
+                                        <g id="New_logo" data-name="New logo" transform="translate(-85.039 -81.248)">
+                                            <g id="SK_Logo" transform="translate(85.039 81.248)">
+                                                <g id="Group_2347" data-name="Group 2347"
+                                                    transform="translate(124.355 0)">
+                                                    <rect id="Rectangle_1395" data-name="Rectangle 1395" width="9.21"
+                                                        height="9.21" transform="translate(0 19.132) rotate(-45)"
+                                                        fill="#c80041"></rect>
+                                                    <rect id="Rectangle_1396" data-name="Rectangle 1396" width="9.21"
+                                                        height="9.21" transform="translate(12.62 19.132) rotate(-45)"
+                                                        fill="#c80041"></rect>
+                                                    <rect id="Rectangle_1397" data-name="Rectangle 1397" width="9.21"
+                                                        height="9.21" transform="translate(12.62 6.513) rotate(-45)"
+                                                        fill="#c80041"></rect>
+                                                </g>
+                                                <g id="Group_2348" data-name="Group 2348"
+                                                    transform="translate(0.002 0.572)">
+                                                    <path id="Path_262" data-name="Path 262"
+                                                        d="M91.655,107.991a6.418,6.418,0,0,1-2.737-1.665v1.761H85.045V99.7h4.033v.352a3.787,3.787,0,0,0,1.616,3.169,6.76,6.76,0,0,0,4.177,1.216,6.438,6.438,0,0,0,3.329-.7,2.287,2.287,0,0,0,1.152-2.08,2.556,2.556,0,0,0-1.12-2.225A10.531,10.531,0,0,0,94.2,98.164l-1.536-.256a9.792,9.792,0,0,1-5.505-2.449,6.714,6.714,0,0,1-1.824-4.945,6.6,6.6,0,0,1,1.1-3.761,7.362,7.362,0,0,1,3.1-2.576,10.881,10.881,0,0,1,4.625-.928q4.065,0,6.017,2.048V83.761h3.841v8.29H99.961v-.32A3.967,3.967,0,0,0,98.6,88.61a5.2,5.2,0,0,0-3.569-1.2,5.069,5.069,0,0,0-2.993.768,2.428,2.428,0,0,0-1.072,2.081A2.527,2.527,0,0,0,92.055,92.4a9.324,9.324,0,0,0,3.809,1.248l1.344.224a11.337,11.337,0,0,1,5.921,2.465,6.426,6.426,0,0,1,1.856,4.9,6.609,6.609,0,0,1-2.4,5.377,10.044,10.044,0,0,1-6.593,1.985A13.5,13.5,0,0,1,91.655,107.991Z"
+                                                        transform="translate(-85.045 -83.249)" fill="#212721"></path>
+                                                    <path id="Path_263" data-name="Path 263"
+                                                        d="M174.075,109.365H163.929v-4.033h2.433V89.072h-2.433V85.039h10.146v4.033h-2.433v16.26h2.433Z"
+                                                        transform="translate(-141.364 -84.527)" fill="#212721"></path>
+                                                    <path id="Path_264" data-name="Path 264"
+                                                        d="M219.984,109.365h-9.955v-4.033h2.433V89.072h-2.433V85.039H219.5l6.305,15.876,6.178-15.876h9.474v4.033H239v16.26h2.465v4.033H231.378v-4.033H234.1V91.568L228.017,107H223.44l-6.177-15.363v13.7h2.721Z"
+                                                        transform="translate(-174.277 -84.527)" fill="#212721"></path>
+                                                    <path id="Path_265" data-name="Path 265"
+                                                        d="M333.294,107.014a10.9,10.9,0,0,1-4.353-4.465,15.054,15.054,0,0,1,0-13.251,10.9,10.9,0,0,1,4.353-4.465,14.414,14.414,0,0,1,13.139,0A10.875,10.875,0,0,1,350.8,89.3a15.054,15.054,0,0,1,0,13.251,10.874,10.874,0,0,1-4.369,4.465,14.411,14.411,0,0,1-13.139,0Zm10.306-4.273a6.259,6.259,0,0,0,2.449-2.721,10.319,10.319,0,0,0,0-8.194,6.263,6.263,0,0,0-2.449-2.721,7.783,7.783,0,0,0-7.49,0,6.254,6.254,0,0,0-2.448,2.721,10.316,10.316,0,0,0,0,8.194,6.25,6.25,0,0,0,2.448,2.721,7.783,7.783,0,0,0,7.49,0Z"
+                                                        transform="translate(-258.078 -83.249)" fill="#212721"></path>
+                                                    <path id="Path_266" data-name="Path 266"
+                                                        d="M431.893,109.365h-9.826v-4.033h2.464V89.072H422.1V85.039h7.842l10.818,16.58V89.072h-2.72V85.039h9.89v4.033h-2.465v20.293h-5.409l-10.883-16.8v12.771h2.721Z"
+                                                        transform="translate(-325.662 -84.527)" fill="#212721"></path>
+                                                </g>
+                                                <g id="Group_2349" data-name="Group 2349"
+                                                    transform="translate(0 33.006)">
+                                                    <path id="Path_267" data-name="Path 267"
+                                                        d="M95.314,222.75H85.039v-4.033h2.433v-16.26H85.039v-4.033H95.314v3.9H92.593v7.554l7.49-7.554H97.938v-3.9h10.114v4.033h-1.985l-6.146,6.017,6.85,10.146h2.977v4.129h-6.786l-6.817-10.659-3.553,3.425v3.2h2.721Z"
+                                                        transform="translate(-85.039 -197.912)" fill="#212721"></path>
+                                                    <path id="Path_268" data-name="Path 268"
+                                                        d="M177.2,220.669q-2.5-2.592-2.5-7.554V202.457h-2.273v-4.033h10.243v4.033H179.95v11.171a4.694,4.694,0,0,0,1.248,3.521,5.916,5.916,0,0,0,7.186,0,4.732,4.732,0,0,0,1.232-3.521V202.457H186.9v-4.033H197.17v4.033h-2.433v10.659q0,4.962-2.481,7.554t-7.506,2.592Q179.693,223.262,177.2,220.669Z"
+                                                        transform="translate(-147.43 -197.912)" fill="#212721"></path>
+                                                    <path id="Path_269" data-name="Path 269"
+                                                        d="M270.725,220.415a10.772,10.772,0,0,1-4.337-4.481,14.334,14.334,0,0,1-1.536-6.785,14.827,14.827,0,0,1,1.376-6.53,10.365,10.365,0,0,1,3.9-4.417,10.944,10.944,0,0,1,5.889-1.568,11.208,11.208,0,0,1,4.257.768,6.406,6.406,0,0,1,2.849,2.08v-2.337h4.065V207.74H282.84v-.256a5.5,5.5,0,0,0-5.922-5.953,6.093,6.093,0,0,0-4.817,2.016,8.038,8.038,0,0,0-1.776,5.505,9.064,9.064,0,0,0,.944,4.225,6.771,6.771,0,0,0,2.657,2.817,7.739,7.739,0,0,0,3.953.992,8.243,8.243,0,0,0,3.681-.848,7.58,7.58,0,0,0,2.785-2.256l3.265,3.329a11.672,11.672,0,0,1-4.337,3.393,14.006,14.006,0,0,1-6.065,1.28A13.038,13.038,0,0,1,270.725,220.415Z"
+                                                        transform="translate(-213.416 -196.634)" fill="#212721"></path>
+                                                    <path id="Path_270" data-name="Path 270"
+                                                        d="M363.154,222.75H352.687v-4.033h2.433v-16.26h-2.433v-4.033h10.467v4.033H360.4v6.081h10.018v-6.081H367.7v-4.033h10.434v4.033H375.7v16.26h2.433v4.033H367.7v-4.033h2.721v-6.241H360.4v6.241h2.753Z"
+                                                        transform="translate(-276.126 -197.912)" fill="#212721"></path>
+                                                    <path id="Path_271" data-name="Path 271"
+                                                        d="M471.382,222.75H451.6v-4.033h2.433v-16.26H451.6v-4.033h19.781v6.818H467.22v-2.785h-7.906v6.21h8.162v3.777h-8.162v6.273h7.873v-2.784h4.193Z"
+                                                        transform="translate(-346.746 -197.912)" fill="#212721"></path>
+                                                    <path id="Path_272" data-name="Path 272"
+                                                        d="M529.59,222.75v-4.033h2.433v-16.26H529.59v-4.033h10.85q4.705,0,7.106,1.921a7.785,7.785,0,0,1,1.344,9.538,7.1,7.1,0,0,1-2.913,2.5l3.457,6.242h2.945v4.129h-6.69l-4.737-9.218h-3.681v5.185h2.721v4.033Zm10.338-13.027q4.705,0,4.705-3.713a3.285,3.285,0,0,0-1.2-2.817,6.058,6.058,0,0,0-3.633-.9h-2.528v7.426Z"
+                                                        transform="translate(-402.426 -197.912)" fill="#212721"></path>
+                                                </g>
+                                            </g>
+                                            <g id="SK_Unlocking_better_Growth" transform="translate(85.039 147.424)">
+                                                <g id="Group_2350" data-name="Group 2350">
+                                                    <path id="Path_273" data-name="Path 273"
+                                                        d="M92.957,319.631c0,2.618-1.573,4.179-3.972,4.179s-3.946-1.561-3.946-4.179v-4.785H86.9v4.8a2.123,2.123,0,1,0,4.2,0v-4.8h1.857Z"
+                                                        transform="translate(-85.039 -314.201)" fill="#c80041"></path>
+                                                    <path id="Path_274" data-name="Path 274"
+                                                        d="M124.175,326.212V329.6h-1.793v-3.237c0-.98-.49-1.509-1.328-1.509a1.847,1.847,0,0,0-1.354.774V329.6h-1.792v-6.177H119.7v.439a2.739,2.739,0,0,1,1.767-.632A2.686,2.686,0,0,1,124.175,326.212Z"
+                                                        transform="translate(-108.506 -320.189)" fill="#c80041"></path>
+                                                    <path id="Path_275" data-name="Path 275"
+                                                        d="M146.842,322.65H145.05v-9.156h1.792Z"
+                                                        transform="translate(-127.884 -313.236)" fill="#c80041"></path>
+                                                    <path id="Path_276" data-name="Path 276"
+                                                        d="M162.2,326.682a3.3,3.3,0,1,1-3.289-3.224A3.155,3.155,0,0,1,162.2,326.682Zm-1.767,0a1.537,1.537,0,1,0-3.069,0,1.541,1.541,0,1,0,3.069,0Z"
+                                                        transform="translate(-135.417 -320.35)" fill="#c80041"></path>
+                                                    <path id="Path_277" data-name="Path 277"
+                                                        d="M186.561,327.34h1.793a2.978,2.978,0,0,1-3.108,2.566,3.225,3.225,0,1,1,0-6.448,2.978,2.978,0,0,1,3.108,2.566h-1.793a1.261,1.261,0,0,0-1.316-.98,1.634,1.634,0,0,0,0,3.263A1.252,1.252,0,0,0,186.561,327.34Z"
+                                                        transform="translate(-154.215 -320.35)" fill="#c80041"></path>
+                                                    <path id="Path_278" data-name="Path 278"
+                                                        d="M210.46,321.374v1.277h-1.793v-9.156h1.793v5.546l2.386-2.567h2.231l-2.4,2.554,2.669,3.624H213.09l-1.638-2.321Z"
+                                                        transform="translate(-173.303 -313.236)" fill="#c80041"></path>
+                                                    <path id="Path_279" data-name="Path 279"
+                                                        d="M234.593,313.65a1.077,1.077,0,0,1,2.153,0,1.078,1.078,0,0,1-2.153,0Zm1.986,2.179v6.178h-1.792v-6.178Z"
+                                                        transform="translate(-191.813 -312.592)" fill="#c80041"></path>
+                                                    <path id="Path_280" data-name="Path 280"
+                                                        d="M253.485,326.212V329.6h-1.793v-3.237c0-.98-.49-1.509-1.328-1.509a1.847,1.847,0,0,0-1.354.774V329.6h-1.792v-6.177h1.792v.439a2.74,2.74,0,0,1,1.767-.632A2.686,2.686,0,0,1,253.485,326.212Z"
+                                                        transform="translate(-200.826 -320.189)" fill="#c80041"></path>
+                                                    <path id="Path_281" data-name="Path 281"
+                                                        d="M279.578,323.426v6.1a2.959,2.959,0,0,1-3.2,3.1,3.017,3.017,0,0,1-3.25-2.67h1.806c.077.645.593,1.07,1.444,1.07a1.358,1.358,0,0,0,1.419-1.483v-.619a3.151,3.151,0,0,1-1.754.477,3.075,3.075,0,0,1-3.082-3.005,3.045,3.045,0,0,1,3.082-3.159,3.153,3.153,0,0,1,1.754.49v-.3Zm-1.78,3.727V325.49a1.689,1.689,0,0,0-1.457-.735,1.547,1.547,0,0,0-1.6,1.638,1.59,1.59,0,0,0,1.6,1.5A1.689,1.689,0,0,0,277.8,327.153Z"
+                                                        transform="translate(-219.207 -320.189)" fill="#c80041"></path>
+                                                    <path id="Path_282" data-name="Path 282"
+                                                        d="M319.974,319.555a3.121,3.121,0,0,1-3.069,3.224,3.154,3.154,0,0,1-1.754-.49v.361h-1.793v-9.156h1.793v3.34a3.139,3.139,0,0,1,4.823,2.721Zm-1.767,0a1.636,1.636,0,0,0-1.6-1.689,1.741,1.741,0,0,0-1.457.71v1.973a1.723,1.723,0,0,0,1.457.722A1.65,1.65,0,0,0,318.207,319.555Z"
+                                                        transform="translate(-248.047 -313.236)" fill="#c80041"></path>
+                                                    <path id="Path_283" data-name="Path 283"
+                                                        d="M346.053,326.973H341.5a1.491,1.491,0,0,0,1.6,1.29,1.134,1.134,0,0,0,1.045-.464h1.87a2.926,2.926,0,0,1-2.953,2,3.191,3.191,0,0,1-3.327-3.276,3.145,3.145,0,0,1,3.276-3.288,2.986,2.986,0,0,1,3.082,3.159A3.592,3.592,0,0,1,346.053,326.973Zm-4.539-1.057h2.8a1.231,1.231,0,0,0-1.29-1.2A1.447,1.447,0,0,0,341.514,325.915Z"
+                                                        transform="translate(-266.878 -320.189)" fill="#c80041"></path>
+                                                    <path id="Path_284" data-name="Path 284"
+                                                        d="M369.432,324.492a4.734,4.734,0,0,1-1.664.284,2.421,2.421,0,0,1-2.476-2.657v-2.205h-1.3V318.4h1.3v-2.2h1.78v2.2H369.3v1.509h-2.231v2.193a.949.949,0,0,0,1.083,1.019,4.294,4.294,0,0,0,1.045-.168Z"
+                                                        transform="translate(-284.196 -315.168)" fill="#c80041"></path>
+                                                    <path id="Path_285" data-name="Path 285"
+                                                        d="M389.541,324.492a4.734,4.734,0,0,1-1.664.284,2.421,2.421,0,0,1-2.476-2.657v-2.205h-1.3V318.4h1.3v-2.2h1.78v2.2h2.231v1.509h-2.231v2.193a.949.949,0,0,0,1.083,1.019,4.294,4.294,0,0,0,1.045-.168Z"
+                                                        transform="translate(-298.553 -315.168)" fill="#c80041"></path>
+                                                    <path id="Path_286" data-name="Path 286"
+                                                        d="M411.608,326.973h-4.552a1.492,1.492,0,0,0,1.6,1.29,1.133,1.133,0,0,0,1.045-.464h1.87a2.926,2.926,0,0,1-2.953,2,3.191,3.191,0,0,1-3.327-3.276,3.145,3.145,0,0,1,3.276-3.288,2.986,2.986,0,0,1,3.082,3.159A3.627,3.627,0,0,1,411.608,326.973Zm-4.539-1.057h2.8a1.23,1.23,0,0,0-1.289-1.2A1.447,1.447,0,0,0,407.069,325.915Z"
+                                                        transform="translate(-313.681 -320.189)" fill="#c80041"></path>
+                                                    <path id="Path_287" data-name="Path 287"
+                                                        d="M433.412,324.347a3.027,3.027,0,0,1,2.167-.8v1.7a2.879,2.879,0,0,0-2.167.89v3.688h-1.793v-6.178h1.793Z"
+                                                        transform="translate(-332.48 -320.414)" fill="#c80041"></path>
+                                                    <path id="Path_288" data-name="Path 288"
+                                                        d="M466.279,323.426v6.1a2.959,2.959,0,0,1-3.2,3.1,3.016,3.016,0,0,1-3.25-2.67h1.805c.077.645.593,1.07,1.445,1.07a1.358,1.358,0,0,0,1.418-1.483v-.619a3.15,3.15,0,0,1-1.754.477,3.075,3.075,0,0,1-3.082-3.005,3.045,3.045,0,0,1,3.082-3.159,3.152,3.152,0,0,1,1.754.49v-.3Zm-1.779,3.727V325.49a1.689,1.689,0,0,0-1.457-.735,1.547,1.547,0,0,0-1.6,1.638,1.589,1.589,0,0,0,1.6,1.5A1.689,1.689,0,0,0,464.5,327.153Z"
+                                                        transform="translate(-352.502 -320.189)" fill="#c80041"></path>
+                                                    <path id="Path_289" data-name="Path 289"
+                                                        d="M490.13,324.347a3.027,3.027,0,0,1,2.167-.8v1.7a2.88,2.88,0,0,0-2.167.89v3.688h-1.793v-6.178h1.793Z"
+                                                        transform="translate(-372.973 -320.414)" fill="#c80041"></path>
+                                                    <path id="Path_290" data-name="Path 290"
+                                                        d="M511.037,326.682a3.3,3.3,0,1,1-3.289-3.224A3.155,3.155,0,0,1,511.037,326.682Zm-1.767,0a1.537,1.537,0,1,0-3.069,0,1.541,1.541,0,1,0,3.069,0Z"
+                                                        transform="translate(-384.466 -320.35)" fill="#c80041"></path>
+                                                    <path id="Path_291" data-name="Path 291"
+                                                        d="M536.229,330.086h-1.586l-1.122-3.4-1.135,3.4h-1.573l-2.257-6.178h1.922l1.135,3.443,1.16-3.443h1.483l1.173,3.456,1.135-3.456h1.922Z"
+                                                        transform="translate(-401.688 -320.671)" fill="#c80041"></path>
+                                                    <path id="Path_292" data-name="Path 292"
+                                                        d="M569.662,324.492a4.734,4.734,0,0,1-1.664.284,2.421,2.421,0,0,1-2.476-2.657v-2.205h-1.3V318.4h1.3v-2.2h1.78v2.2h2.231v1.509H567.3v2.193a.949.949,0,0,0,1.083,1.019,4.291,4.291,0,0,0,1.044-.168Z"
+                                                        transform="translate(-427.15 -315.168)" fill="#c80041"></path>
+                                                    <path id="Path_293" data-name="Path 293"
+                                                        d="M593.616,319.259v3.392h-1.793v-3.237c0-.98-.49-1.509-1.328-1.509a1.847,1.847,0,0,0-1.354.774v3.972h-1.793v-9.156h1.793v3.418a2.739,2.739,0,0,1,1.767-.632A2.686,2.686,0,0,1,593.616,319.259Z"
+                                                        transform="translate(-443.662 -313.236)" fill="#c80041"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg> </a></div>
+                            <div class="social-icons-nav"> <a
+                                    href="https://www.linkedin.com/company/simon-kucher-&amp;-partners"
+                                    target="_blank"><i class="bi bi-linkedin"></i></a><a
+                                    href="https://www.instagram.com/simonkucherpartners/" target="_blank"><i
+                                        class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="footer__legal">
+            <div class="wrapper--1">
+                <div class="grid__wrapper">
+                    <div class="grid grid--span-12 grid--full">
+                        <div class="skp-legal-wrapper">
+                            <div class="skp-copyrights-text">©️ Simon-Kucher &amp; Partners 2024</div>
+                            <p><a href="/en/legal-notice">Impressum</a> <a href="/de/data-privacy">Datenschutz</a> <a
+                                    href="/de/sitemap">Sitemap</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <!-- menu items grid layout-->
+    <div>
+        <div id="navigation__who-we-are" class="navigation__overlay overlay-content-wrapper">
+            <div class="wrapper--1">
+                <div class="grid__wrapper grid--row-1">
+                    <div class="grid grid--span-3 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <div class="nav-back-button"><i class="fas fa-chevron-left"></i>Back</div>
+                            <div class="heading--4">Who We Are</div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem
+                            </p>
+                            <div class="button__wrapper">
+                                <a class="button button--1">See overview</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid--span-3 grid--as-top ta--left menu-overflow">
+                        <div class="grid__content">
+                            <ul class="menu menu-level--1">
+                                <li class="navigation__group-sub"><a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-curved-shape-picture-id1399939949">About
+                                        us</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Our
+                                        Leaders & Specialists</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self">Diversity, Equality &
+                                        Inclusion</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self">ESG</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self">Client Results</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self">Newsroom</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self">Global Offices</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="social-icons-nav">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="navigation__what-we-do" class="navigation__overlay overlay-content-wrapper">
+            <div class="wrapper--1">
+                <div class="grid__wrapper grid--row-1">
+                    <div class="grid grid--span-3 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <div class="nav-back-button"><i class="fas fa-chevron-left"></i>Back</div>
+                            <div class="heading--4">What we do</div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem
+                            </p>
+                            <div class="button__wrapper">
+                                <a class="button button--1">See overview</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid--span-4 grid--as-top ta--left menu-overflow">
+                        <div class="grid__content">
+                            <ul class="menu menu-level--1">
+                                <li class="navigation__group-sub"><a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-curved-shape-picture-id1399939949">Commercial
+                                        Strategy and Pricing Consulting</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Digital
+                                        Growth - Elevate</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self">Commercial Software -
+                                        Engine</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self">Transaction and Private
+                                        Equity Services</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-icons-nav">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="navigation__our-industries" class="navigation__overlay overlay-content-wrapper">
+            <div class="wrapper--1">
+                <div class="grid__wrapper grid--row-1">
+                    <div class="grid grid--span-3 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <div class="nav-back-button"><i class="fas fa-chevron-left"></i>Back</div>
+                            <div class="heading--4">Our Industries</div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem
+                            </p>
+                            <div class="button__wrapper">
+                                <a class="button button--1">See overview</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid--span-3 grid--as-top ta--left menu-overflow">
+                        <div class="grid__content">
+                            <ul class="menu menu-level--1">
+                                <li class="navigation__group-sub">
+                                    <span
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952"
+                                        data-overlay="#consumerretailsubnav">Consumer & Retail<i
+                                            class="fas fa-chevron-right"></i></span>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <span
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952"
+                                        data-overlay="#financialservicessubnav">Financial Services<i
+                                            class="fas fa-chevron-right"></i></span>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <span
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952"
+                                        data-overlay="#healthcaresubnav">Healthcare & Life Sciences<i
+                                            class="fas fa-chevron-right"></i></span>
+                                </li>
+                                <li class="navigation__group-sub"><a href="#" target="_self">Industrials</a></li>
+                                <li class="navigation__group-sub"><a href="#" target="_self">Technology, Media,
+                                        Telecom</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid grid--span-3 grid--as-top ta--left" style="display: none;">
+                        <div class="grid__content">
+                            <div class="sub-nav-back-button"><i class="fas fa-chevron-left"></i>Consumer & Retail</div>
+                            <ul id="consumerretailsubnav" class="menu menu-level--2">
+                                <li>
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Consumer
+                                        & Retail overview page</a>
+                                </li>
+                                <li>
+                                    <a href="#">Consumer products</a>
+                                </li>
+                                <li>
+                                    <a href="#">luxury goods</a>
+                                </li>
+                                <li>
+                                    <a href="#">retail</a>
+                                </li>
+                                <li>
+                                    <a href="#">travel, tourism & leisure</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid grid--span-3 grid--as-top ta--left" style="display: none;">
+                        <div class="grid__content">
+                            <div class="sub-nav-back-button"><i class="fas fa-chevron-left"></i>Financial Services</div>
+                            <ul id="financialservicessubnav" class="menu menu-level--2">
+                                <li>
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Financial
+                                        Services overview page</a>
+                                </li>
+                                <li>
+                                    <a href="#">banking</a>
+                                </li>
+                                <li>
+                                    <a href="#">fintech & payments</a>
+                                </li>
+                                <li>
+                                    <a href="#">insurance</a>
+                                </li>
+                                <li>
+                                    <a href="#">wealth & asset management</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid grid--span-3 grid--as-top ta--left" style="display: none;">
+                        <div class="grid__content">
+                            <div class="sub-nav-back-button"><i class="fas fa-chevron-left"></i>Healthcare & Life
+                                Sciences</div>
+                            <ul id="healthcaresubnav" class="menu menu-level--2">
+                                <li>
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Healthcare
+                                        & Life Sciences overview page</a>
+                                </li>
+                                <li>
+                                    <a href="#">Animal Health</a>
+                                </li>
+                                <li>
+                                    <a href="#">consumer healthcare</a>
+                                </li>
+                                <li>
+                                    <a href="#">diagnostics</a>
+                                </li>
+                                <li>
+                                    <a href="#">digital health</a>
+                                </li>
+                                <li>
+                                    <a href="#">healthcare b2b suppliers</a>
+                                </li>
+                                <li>
+                                    <a href="#">MedTech</a>
+                                </li>
+                                <li>
+                                    <a href="#">pharma & biotechnology</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="social-icons-nav">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="navigation__what-we-think" class="navigation__overlay overlay-content-wrapper">
+            <div class="wrapper--1">
+                <div class="grid__wrapper grid--row-1">
+                    <div class="grid grid--span-3 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <div class="nav-back-button"><i class="fas fa-chevron-left"></i>Back</div>
+                            <div class="heading--4">What we think</div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem
+                            </p>
+                            <div class="button__wrapper">
+                                <a class="button button--1">See all insights</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid--span-3 grid--as-top ta--left menu-overflow">
+                        <div class="grid__content">
+                            <p>Blogs by Industry</p>
+                            <ul class="menu menu-level--1">
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Consumer
+                                        & Retail</a>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Financial
+                                        services</a>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Industrials</a>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Healthcare
+                                        & Life Sciences</a>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Technology,
+                                        Media, Telecom</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-icons-nav">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="navigation__join-us" class="navigation__overlay overlay-content-wrapper">
+            <div class="wrapper--1">
+                <div class="grid__wrapper grid--row-1">
+                    <div class="grid grid--span-3 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <div class="nav-back-button"><i class="fas fa-chevron-left"></i>Back</div>
+                            <div class="heading--4">Join us</div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem
+                            </p>
+                            <div class="button__wrapper">
+                                <a class="button button--1">See all Careers</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid--span-3 grid--as-top ta--left menu-overflow">
+                        <div class="grid__content">
+                            <p>View</p>
+                            <ul class="menu menu-level--1">
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Why
+                                        join SK?</a>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Careers
+                                        FAQs</a>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">people
+                                        & stories</a>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">benefits</a>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">interview
+                                        preperation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-icons-nav">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="navigation__events" class="navigation__overlay overlay-content-wrapper">
+            <div class="wrapper--1">
+                <div class="grid__wrapper grid--row-1">
+                    <div class="grid grid--span-3 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <div class="nav-back-button"><i class="fas fa-chevron-left"></i>Back</div>
+                            <div class="heading--4">Events</div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem
+                            </p>
+                            <div class="button__wrapper">
+                                <a class="button button--1">See all Events</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid--span-3 grid--as-top ta--left menu-overflow">
+                        <div class="grid__content">
+                            <p>View by type</p>
+                            <ul class="menu menu-level--1">
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Upcoming
+                                        Events</a>
+                                </li>
+                                <li class="navigation__group-sub">
+                                    <a href="#" target="_self"
+                                        data-associated-image="https://media.gettyimages.com/photos/abstract-multi-coloured-twisted-circular-pattern-picture-id1399939952">Webinars</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-icons-nav">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="navigation__language"
+            class="navigation__overlay overlay-content-wrapper navigation__overlay-secondary">
+            <div class="wrapper--1">
+                <div class="grid__wrapper grid--row-1">
+                    <div class="grid grid--span-12 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <div class="heading--4">Language</div>
+                            <ul class="language__items">
+                                <li class="en"><a href="#" target="_self"><i class="fas fa-globe"></i>Global | EN</a>
+                                </li>
+                                <li class="de"><a href="#" target="_self"><i class="fas fa-globe"></i>Global | DE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="navigation__search" class="navigation__overlay overlay-content-wrapper navigation__overlay-secondary">
+            <div class="wrapper--1">
+                <div class="grid__wrapper grid--row-1">
+                    <div class="grid grid--span-12 grid--as-top ta--left">
+                        <div class="grid__content">
+                            <div class="heading--4">Search</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <script src="./assets/lib/_js/vendor/gsap.min.js"></script>
+    <script src="./assets/lib/_js/vendor/ScrollTrigger.min.js"></script>
+    <script src="./assets/lib/_js/vendor/DrawSVGPlugin3.min.js"></script>
+    <script src="./assets/lib/_js/vendor/MotionPathPlugin.min.js"></script>
+
+    <!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/MotionPathPlugin.min.js"></script> -->
+
+    <script src="./assets/lib/_js/vendor/slick.min.js"></script>
+
+    <script src="./assets/js/svg-content.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+.carousel-section {
+  padding-top: 4rem;
+}
+.carousel-section iframe {
+  min-height: 400px;
+  width: 100%;
+}
+.carousel-section .swiper {
+  width: 100%;
+}
+.carousel-section .swiper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+.carousel-section .swiper .swiper-slide div {
+  display: none;
+  opacity: 0;
+}
+.carousel-section .swiper .swiper-slide-active div {
+  display: block;
+  opacity: 1;
+}
+.carousel-section .swiper-pagination-bullet,
+.carousel-section .swiper-pagination-bullet-active {
+  background: #626262;
+}
+.carousel-section .swiper-pagination {
+  bottom: -3.75rem !important;
+}
+.carousel-section .swiper-button:after {
+  color: #c80041;
+  background: white;
+  border: 0.1rem solid #c80041;
+  line-height: 1;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+}
+.carousel-section .swiper-button:hover::after {
+  background: #c80041;
+  color: white;
+}
+
+/* iPad Portrait and air */
+@media only screen and (max-width: 820px) {
+  .swiper-button-next {
+    left: 6rem;
+  }
+  .swiper-button {
+    top: 0;
+  }
+}

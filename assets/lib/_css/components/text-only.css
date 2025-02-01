@@ -1,0 +1,30 @@
+.text-only .border {
+  border-bottom: 0.3rem solid var(--line-color);
+  width: 19.4rem;
+  margin-bottom: 2.5rem;
+}
+.text-only-indent {
+  margin-left: 11.2rem;
+}
+.text-only-indent p:last-child, .text-only-indent h3:last-child, .text-only-indent div:last-child {
+  margin-bottom: 0;
+}
+
+/* iPad Pro Portrait - iPad Landscape */
+@media only screen and (max-width: 1024px) {
+  .text-only .grid--se-3-10 {
+    grid-column: 1/10;
+  }
+}
+/* iPad Portrait and air */
+@media only screen and (max-width: 820px) {
+  .text-only .grid--se-3-10 {
+    grid-column: span 12;
+  }
+}
+/* iPhone 6 onwards */
+@media only screen and (max-width: 480px) {
+  .text-only-indent {
+    margin-left: 0;
+  }
+}

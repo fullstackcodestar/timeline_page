@@ -1,0 +1,93 @@
+.overlay-cards-content {
+  color: #fff;
+}
+.overlay-cards-content.description-insight {
+  color: black;
+}
+.overlay-cards-content.description-insight .overlay-description-insight {
+  background: white;
+}
+.overlay-cards-content.description-insight img,
+.overlay-cards-content.description-insight .no-image {
+  width: 100%;
+  height: 100%;
+}
+.overlay-cards-content.description-insight .overlay-cards-background.no-image {
+  background: white;
+}
+.overlay-cards-content.description-insight .card-info {
+  font-size: 1.2rem;
+  font-family: var(--font-family-sk);
+  margin: var(--vertical-spacing-2) 0 0;
+}
+.overlay-cards-content.description-insight .card-info .card-terms a {
+  text-decoration: underline;
+}
+.overlay-cards-content.description-insight .card-title h4 {
+  font-weight: var(--bold);
+  margin-top: var(--vertical-spacing-2);
+}
+.overlay-cards-content .overlay-cards-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 44rem;
+  position: relative;
+}
+.overlay-cards-content .overlay-cards-background.no-image {
+  background: var(--skp-color-2);
+}
+.overlay-cards-content .overlay-cards-text {
+  position: absolute;
+  bottom: 0;
+  padding: 2.5rem 1.5rem;
+}
+.overlay-cards-content .overlay-cards-text .overlay-cards-title {
+  font-size: 2.5rem;
+  line-height: 1.25;
+  font-weight: bold;
+}
+.overlay-cards-content .overlay-cards-text .overlay-cards-summary {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
+.overlay-cards-content .overlay-cards-text .overlay-cards-summary p {
+  margin: 0;
+}
+.overlay-cards-content .display-on-hover .overlay-cards-summary {
+  display: none;
+}
+.overlay-cards-content .overlay-cards-overlay {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, transparent 60%, #000 100%);
+  background-blend-mode: multiply;
+  background-size: 100%;
+}
+.overlay-cards-content .display-text-always .overlay-cards-overlay, .overlay-cards-content .hasSummaryText .overlay-cards-overlay:hover {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, transparent 30%, #000 100%);
+  background-blend-mode: multiply;
+  background-size: 100%;
+}
+.overlay-cards-content .overlay-cards-overlay.overlay-description-outside:hover, .overlay-cards-content .display-text-never .overlay-cards-overlay:hover {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, transparent 60%, #000 100%);
+  background-blend-mode: multiply;
+  background-size: 100%;
+}
+
+.display-text-never .overlay-cards-summary {
+  display: none;
+}
+
+.overlay-cards-content.description-outside .overlay-cards-summary {
+  color: #000;
+  padding-top: 1.5rem;
+  font-family: var(--font-family-sk);
+}
+.overlay-cards-content.description-outside a.overlay-cards-read-more:hover {
+  color: #000;
+}

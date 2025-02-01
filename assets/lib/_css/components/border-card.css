@@ -1,0 +1,63 @@
+.border-card {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* iPhone 6 onwards */
+}
+.border-card .image-wrapper img {
+  margin-bottom: 0;
+  height: 100%;
+}
+.border-card .bdrs {
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.border-card.bdrs--t-lr {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.border-card.bdrs--t-lr img {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.border-card .bdrs--b-lr {
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.border-card-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  padding: 2.5rem;
+}
+.border-card-content-wrapper.bd--t {
+  border-top: 0.1rem solid var(--border-card-border-color);
+}
+.border-card-content-wrapper.bd--r {
+  border-right: 0.1rem solid var(--border-card-border-color);
+}
+.border-card-content-wrapper.bd--b {
+  border-bottom: 0.1rem solid var(--border-card-border-color);
+}
+.border-card-content-wrapper.bd--l {
+  border-left: 0.1rem solid var(--border-card-border-color);
+}
+.border-card-content-wrapper .border-card-title {
+  display: flex;
+  flex: 0 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.border-card-content-wrapper .border-card-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.border-card-content-wrapper .border-card-text p {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 480px) {
+  .border-card-content-wrapper {
+    padding: 1.5rem;
+  }
+}

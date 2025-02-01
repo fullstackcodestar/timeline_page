@@ -1,0 +1,24 @@
+.paragraph_quote .border {
+  border-bottom: 0.3rem solid var(--skp-color-1);
+  width: 19.4rem;
+  margin-bottom: 2.5rem;
+}
+.paragraph_quote q {
+  font-size: 2.8rem;
+}
+.paragraph_quote h5 {
+  margin-top: 2.5rem;
+}
+.paragraph_quote h5 span {
+  font-weight: normal;
+}
+
+/* iPad Portrait and air */
+@media only screen and (max-width: 820px) {
+  .paragraph_quote {
+    padding: 0 1.8rem;
+  }
+  .paragraph_quote q {
+    font-size: 2.1rem;
+  }
+}

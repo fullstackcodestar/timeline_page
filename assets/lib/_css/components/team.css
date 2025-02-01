@@ -1,0 +1,54 @@
+.views-block-country-related-people, .views-block-newsroom-press-contacts {
+  padding-top: 3rem;
+}
+
+.views-block-newsroom-press-contacts a.button--2 {
+  text-decoration: none;
+}
+
+.meet-the-team-row1 {
+  margin-bottom: 1rem;
+}
+.meet-the-team-row1 input.js-hide {
+  display: none;
+}
+.meet-the-team-row1 .form-item-field-offices-target-id, .meet-the-team-row1 .form-item-field-countries-target-id {
+  position: relative;
+  top: -6px;
+  font-size: 1.8rem;
+}
+.meet-the-team-row1 .form-item-field-offices-target-id label, .meet-the-team-row1 .form-item-field-countries-target-id label {
+  margin-right: 1rem;
+}
+
+.meet-the-team-title {
+  font-size: 6.7rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.meet-the-team-cta {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.meet-the-team-cta .button__wrapper .button {
+  margin-top: 0;
+}
+
+.related-country-exposed-form-wrapper {
+  display: inline-block;
+}
+
+.meet-the-team-exposed-filter {
+  position: relative;
+  top: -9px;
+  display: inline-block;
+}
+.meet-the-team-exposed-filter .form-item {
+  display: inline-block;
+  padding-right: 1rem;
+}
+.meet-the-team-exposed-filter .form-actions {
+  display: none;
+}

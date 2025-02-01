@@ -1,0 +1,15 @@
+#sticky-button2 {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 0;
+    background-color: gray;
+    padding: 0.5rem 2.5rem;
+    color: white;
+    z-index: 999;
+    display: none;
+}
+#sticky-button2 .right-content {
+    position: absolute;
+    right: 5%;
+}
